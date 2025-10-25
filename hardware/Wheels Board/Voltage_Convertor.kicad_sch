@@ -5,113 +5,6 @@
 	(uuid "97a684b1-edbc-4fff-8e38-6f8b007515ac")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1302,18 +1195,6 @@
 		)
 		(uuid 04a5eba8-80e1-4861-bb68-274cb5c1ba41)
 	)
-	(rectangle
-		(start 107.696 22.606)
-		(end 170.942 60.325)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a93f8e12-5fea-466d-b1cd-7d83c633084c)
-	)
 	(text "i\nfucking\nhate\nmath"
 		(exclude_from_sim no)
 		(at 150.114 106.68 0)
@@ -1335,17 +1216,6 @@
 			(justify left)
 		)
 		(uuid "18df3903-6229-4e10-ae24-40e2125e16fc")
-	)
-	(text "Testpoints"
-		(exclude_from_sim no)
-		(at 116.586 25.654 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.2381)
-			)
-		)
-		(uuid "21f7e0ce-0423-4442-a34f-88b28416c394")
 	)
 	(text "Vin: 6.5v to 28v\nVout: 4.85v to 5.15v"
 		(exclude_from_sim no)
@@ -1558,16 +1428,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 49.53) (xy 128.27 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b9e952-0b57-4894-9a8a-6b5905c49751")
-	)
-	(wire
-		(pts
 			(xy 105.41 109.22) (xy 105.41 110.49)
 		)
 		(stroke
@@ -1598,16 +1458,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 34.29) (xy 124.46 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36c46d2a-5730-4b82-9cf9-26f628eca2a5")
-	)
-	(wire
-		(pts
 			(xy 118.11 110.49) (xy 118.11 111.76)
 		)
 		(stroke
@@ -1625,16 +1475,6 @@
 			(type default)
 		)
 		(uuid "4269ff09-75f5-4337-bb62-f536a0ff716f")
-	)
-	(wire
-		(pts
-			(xy 143.51 35.56) (xy 143.51 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42a4f94c-908e-417e-a7c9-ac0f88498c61")
 	)
 	(wire
 		(pts
@@ -1748,16 +1588,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 35.56) (xy 134.62 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8198814a-4f64-45ec-9657-222693076b1b")
-	)
-	(wire
-		(pts
 			(xy 184.15 100.33) (xy 184.15 101.6)
 		)
 		(stroke
@@ -1815,16 +1645,6 @@
 			(type default)
 		)
 		(uuid "b4cfa3d7-278b-46ce-882a-74accf31e75c")
-	)
-	(wire
-		(pts
-			(xy 142.24 49.53) (xy 142.24 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5644afb-d9c6-4df7-96d9-8b1dfb0a574d")
 	)
 	(wire
 		(pts
@@ -4547,138 +4367,6 @@
 		(uuid "92e5d09b-0e11-4d00-b7a1-53cc1ecab6da")
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 124.46 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bd74b3d-1090-40c4-8fa3-2dd01d6ca23e")
-		(property "Reference" "#PWR083"
-			(at 124.46 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 124.206 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 124.46 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f70d369b-8a32-421a-a4d1-109def20950d")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 143.51 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d10e2a1-6608-456f-9e4e-1730e7c1788b")
-		(property "Reference" "TP8"
-			(at 146.05 30.9879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 33.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 148.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 143.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60c8f3d5-e148-4f90-9440-7faf9e4bf0e8")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 127 132.08 0)
 		(unit 1)
@@ -4901,71 +4589,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 128.27 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e3185ff-dbaa-42e9-8007-208764e1c9c8")
-		(property "Reference" "#PWR079"
-			(at 128.27 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 128.27 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 128.27 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "005a178b-b157-464d-836f-ee8ec66a68d0")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 195.58 110.49 90)
 		(unit 1)
@@ -5037,71 +4660,6 @@
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 142.24 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "360961c2-2a7a-40a0-abc0-56c94edf137b")
-		(property "Reference" "#PWR080"
-			(at 142.24 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_BUCK"
-			(at 141.986 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 142.24 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "239ad3dc-a2c0-4919-b2d8-7807cc2a3fad")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5180,71 +4738,6 @@
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b82ad3a-5bbd-4ed1-96ef-4cdbea443825")
-		(property "Reference" "#PWR085"
-			(at 143.51 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cd3f566-d9d6-4f82-b986-465f9d37b304")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -5401,140 +4894,6 @@
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 134.62 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "549a3486-ad0c-4ada-80da-fff2715096ca")
-		(property "Reference" "TP7"
-			(at 137.16 30.9879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 33.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 139.7 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "902d0fbe-67ed-4b62-bcfd-6b790351196c")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 142.24 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67a149ae-32b6-46bd-a33e-9c6adff941c5")
-		(property "Reference" "TP3"
-			(at 144.78 54.1019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V_BK"
-			(at 144.78 56.6419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 137.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 142.24 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5d182eb-ecf5-426f-8456-ec112b63d80f")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6115,71 +5474,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1e1a488-da18-4e62-94ca-806a1216d71f")
-		(property "Reference" "#PWR084"
-			(at 134.62 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4111c3ba-961b-4bcb-961e-66d850a57608")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 184.15 114.3 270)
 		(unit 1)
@@ -6428,149 +5722,6 @@
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 128.27 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebdffe59-1aea-4ee5-b2e1-32db9f439d60")
-		(property "Reference" "TP14"
-			(at 130.81 54.1019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "24V"
-			(at 130.81 56.6419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 123.19 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 128.27 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cce064e-95f7-48ca-9bca-44c63f0860b8")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef1ba072-a2d8-4cac-8ff1-e33354e8747f")
-		(property "Reference" "TP6"
-			(at 127 38.8619 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3V3"
-			(at 127 41.4019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 119.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTD2012LVBC-D.pdf"
-			(at 119.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 124.46 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "APTD2012LVBC/D"
-			(at 124.46 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0015ecf2-010b-4366-8797-bf2cbaa3e44f")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "TP6")
 					(unit 1)
 				)
 			)

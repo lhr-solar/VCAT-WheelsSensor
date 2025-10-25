@@ -5922,7 +5922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "090001b3-481b-4655-b6c4-8ef81baadfd1")
-		(property "Reference" "TP_GND"
+		(property "Reference" "TP_GND2"
 			(at 67.056 176.784 90)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c"
-					(reference "TP_GND")
+					(reference "TP_GND2")
 					(unit 1)
 				)
 			)
@@ -7173,7 +7173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47fb0c4e-fcec-4880-a6ee-848a65d592a7")
-		(property "Reference" "TP_5V"
+		(property "Reference" "TP_5V2"
 			(at 67.056 166.624 90)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c"
-					(reference "TP_5V")
+					(reference "TP_5V2")
 					(unit 1)
 				)
 			)
@@ -8222,7 +8222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66e620ac-e021-4455-bd69-3306f6f5435a")
-		(property "Reference" "TP_OUT"
+		(property "Reference" "TP_OUT1"
 			(at 67.056 171.704 90)
 			(effects
 				(font
@@ -8321,7 +8321,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c"
-					(reference "TP_OUT")
+					(reference "TP_OUT1")
 					(unit 1)
 				)
 			)
