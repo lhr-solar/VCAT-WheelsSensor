@@ -8,4 +8,5 @@
   (lib (name "xiao-esp32s3-smd")(type "KiCad")(uri "${KIPRJMOD}/../../lib/symbols/Seeed_Studio_XIAO_Series (1).kicad_sym")(options "")(descr ""))
   (lib (name "IMU-ASM330LHHTR")(type "KiCad")(uri "${KIPRJMOD}/../../lib/symbols/ASM330LHHTR (IMU).kicad_sym")(options "")(descr ""))
   (lib (name "MP1584EN-LF-Z (Buck Convertor)")(type "KiCad")(uri "${KIPRJMOD}/../../lib/symbols/MP1584EN-LF-Z (Buck Convertor).kicad_sym")(options "")(descr ""))
+  (lib (name "TLV9002QDRQ1(Op-Amp)")(type "KiCad")(uri "${KIPRJMOD}/../../lib/symbols/TLV9002QDRQ1(Op-Amp).kicad_sym")(options "")(descr ""))
 )
