@@ -10,4 +10,5 @@
   (lib (name "XIAO-ESP32S3-SMD")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/XIAO-ESP32S3-SMD.pretty")(options "")(descr ""))
   (lib (name "ASM330LHHTR-IMU")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/ASM330LHHTR-IMU.pretty")(options "")(descr ""))
   (lib (name "TLV9002QDRQ1")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/TLV9002QDRQ1.pretty")(options "")(descr ""))
+  (lib (name "Fuse")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/Fuse.pretty")(options "")(descr ""))
 )
