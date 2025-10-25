@@ -8,4 +8,5 @@
   (lib (name "UTSVT_Power")(type "KiCad")(uri "${KIPRJMOD}/../../lib/KiCAD-Sharepoint/UTSVT_Power.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Special")(type "KiCad")(uri "${KIPRJMOD}/../../lib/KiCAD-Sharepoint/UTSVT_Special.pretty")(options "")(descr ""))
   (lib (name "XIAO-ESP32S3-SMD")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/XIAO-ESP32S3-SMD.pretty")(options "")(descr ""))
+  (lib (name "ASM330LHHTR-IMU")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/ASM330LHHTR-IMU.pretty")(options "")(descr ""))
 )
