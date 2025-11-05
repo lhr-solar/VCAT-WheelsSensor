@@ -11,4 +11,5 @@
   (lib (name "ASM330LHHTR-IMU")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/ASM330LHHTR-IMU.pretty")(options "")(descr ""))
   (lib (name "TLV9002QDRQ1")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/TLV9002QDRQ1.pretty")(options "")(descr ""))
   (lib (name "Fuse")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/Fuse.pretty")(options "")(descr ""))
+  (lib (name "mx150_2x2")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/mx150_2x2.pretty")(options "")(descr ""))
 )
