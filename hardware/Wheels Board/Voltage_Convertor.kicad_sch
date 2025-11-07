@@ -580,131 +580,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+24V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+24V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+24V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+24V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1343,12 +1218,6 @@
 		(uuid "6c9c60b4-07d1-4a67-9362-c08d88bd4171")
 	)
 	(junction
-		(at 105.41 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80da5b32-52d2-40db-8613-7bf9f2b52270")
-	)
-	(junction
 		(at 184.15 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1788,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 105.41) (xy 127 104.14)
+			(xy 127 105.41) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1855,16 +1724,6 @@
 			(type default)
 		)
 		(uuid "fb1dc885-650b-47db-926e-d818aa580983")
-	)
-	(wire
-		(pts
-			(xy 105.41 97.79) (xy 105.41 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffea16ce-d116-449e-935b-2ba49aa868e8")
 	)
 	(image
 		(at 212.725 142.24)
@@ -4345,24 +4204,35 @@
 		(uuid "fb3ebbe1-da46-4ea5-a526-eda62c3f3388")
 	)
 	(hierarchical_label "5V_BUCK"
-		(shape output)
-		(at 201.93 107.95 0)
+		(shape input)
+		(at 127 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "5e1a8fb0-9796-47e9-8f3e-8bfcd152b88b")
+		(uuid "354a2869-5ec3-48a0-a7f0-bb0b03887337")
+	)
+	(hierarchical_label "5V_BUCK"
+		(shape input)
+		(at 201.93 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "668e4ebf-d950-42d1-b2c8-597a5ffd748d")
 	)
 	(hierarchical_label "24V"
 		(shape input)
-		(at 105.41 97.79 0)
+		(at 105.41 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "92e5d09b-0e11-4d00-b7a1-53cc1ecab6da")
 	)
@@ -4375,7 +4245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17cd2312-5858-43d8-bb6a-9498044ccd19")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 128.778 130.9116 0)
 			(effects
 				(font
@@ -4429,6 +4299,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db07ffbc-1419-4c7b-b1f4-44dfaf62b371")
 		)
@@ -4438,7 +4335,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4453,7 +4350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bfc68d9-5f9b-4fab-8962-954d16df7e48")
-		(property "Reference" "C16"
+		(property "Reference" "C12"
 			(at 227.7872 115.6716 0)
 			(effects
 				(font
@@ -4507,6 +4404,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43a5e3e0-edc5-42ca-9ccb-eed9638aec5a")
 		)
@@ -4516,7 +4440,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "C16")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4596,10 +4520,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34169a13-cb75-4d7d-8518-25f4429e3d27")
-		(property "Reference" "L2"
-			(at 195.58 105.41 90)
+		(property "Reference" "L1"
+			(at 195.326 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4530,7 @@
 			)
 		)
 		(property "Value" "100uH"
-			(at 195.58 107.95 90)
+			(at 195.58 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,6 +4573,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 195.58 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 195.58 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 195.58 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc114b0b-ac99-492b-acc9-097d5a0e2db3")
 		)
@@ -4659,7 +4609,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4674,7 +4624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a5b7533-cc79-4dee-a80d-4b07d52a4a2a")
-		(property "Reference" "C15"
+		(property "Reference" "C11"
 			(at 216.3572 115.6716 0)
 			(effects
 				(font
@@ -4728,6 +4678,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 213.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 213.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 213.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a818dbf-da5f-4f79-bfea-0425f4d1763f")
 		)
@@ -4737,7 +4714,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "C15")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cda6a88-9d1a-4047-aa2d-da6f3bdebdb1")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 118.5672 104.2416 0)
 			(effects
 				(font
@@ -4806,6 +4783,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "219b1213-6646-4899-a17e-6ed5ef999406")
 		)
@@ -4815,7 +4819,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4830,7 +4834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5118ec2e-91a0-4c5a-bd5f-31b4392a17d7")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 187.1472 104.2416 0)
 			(effects
 				(font
@@ -4884,6 +4888,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 184.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 184.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 184.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01436895-8495-465b-b167-d446db5756e6")
 		)
@@ -4893,7 +4924,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4909,7 +4940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f20e929-7522-4e3e-967f-cec0f173e6d8")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR036"
 			(at 127 144.78 0)
 			(effects
 				(font
@@ -4959,7 +4990,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR0101")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4975,7 +5006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f49f36b-9c5f-484c-b09f-60bea65c627f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 184.15 130.81 0)
 			(effects
 				(font
@@ -5025,7 +5056,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5040,7 +5071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "819c2b78-46e3-4006-b6d4-9a55850ad880")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 108.4072 104.2416 0)
 			(effects
 				(font
@@ -5094,6 +5125,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca5db0f4-35c6-43e0-8678-97703b0ac795")
 		)
@@ -5103,72 +5161,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 127 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dcd4d77-4384-4d5e-b1b0-8544ce2a22d4")
-		(property "Reference" "#PWR017"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_BUCK"
-			(at 120.904 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 127 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d7a19c8-32f0-44ad-b74a-703195085083")
-		)
-		(instances
-			(project "Wheels Board"
-				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR017")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5183,7 +5176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9da06149-9c70-4fea-aed2-e4a04a2feada")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 121.1072 114.4016 0)
 			(effects
 				(font
@@ -5237,6 +5230,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e4236f4-a1be-4039-841a-ed0a77c4f573")
 		)
@@ -5246,7 +5266,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5261,7 +5281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaa2bdf5-cc8b-4189-b219-cb19fffb92e4")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR035"
 			(at 105.41 128.27 0)
 			(effects
 				(font
@@ -5311,7 +5331,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR012")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5326,7 +5346,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "bcf42b5a-31e9-499d-b109-4f8541b09e1a")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 144.018 135.9916 0)
 			(effects
 				(font
@@ -5380,6 +5400,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 142.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 142.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 142.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5b27494-c53d-4282-9080-fb176514044f")
 		)
@@ -5389,7 +5436,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bed54f75-c76f-4150-ac8b-c29731a36b56")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 129.9972 120.7516 0)
 			(effects
 				(font
@@ -5449,7 +5496,34 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "06035C332K4T2A"
+		(property "P/N" "MSASH168SB5103KTNA01"
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 127 121.92 0)
 			(effects
 				(font
@@ -5467,7 +5541,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5481,10 +5555,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cabaa9b8-e115-4f0a-8fc1-5f6aca735bf4")
 		(property "Reference" "D6"
-			(at 186.69 112.7124 90)
+			(at 184.404 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5566,7 @@
 			)
 		)
 		(property "Value" "MBR230S1F"
-			(at 186.69 115.2524 90)
+			(at 179.578 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5601,34 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "SS24FL"
+		(property "P/N" "MP01EA06 "
+			(at 184.15 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 184.15 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 184.15 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
 			(at 184.15 114.3 90)
 			(effects
 				(font
@@ -5561,7 +5661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1d37885-c620-448d-a201-a431d0f3d468")
-		(property "Reference" "C14"
+		(property "Reference" "C10"
 			(at 204.9272 115.6716 0)
 			(effects
 				(font
@@ -5615,6 +5715,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91813e07-53c2-4ed8-8531-aedb9b972299")
 		)
@@ -5624,7 +5751,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "C14")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5694,6 +5821,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "5565d3a9-0e1d-4477-ba96-c691f4fbdac9")
 		)
@@ -5737,7 +5891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb5a8125-4a9f-4708-a0f7-052b6912a588")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -5787,7 +5941,7 @@
 		(instances
 			(project "Wheels Board"
 				(path "/ef02af58-69c4-4999-88e2-94274884d34c/4b3444b1-3b2b-462d-9e3e-a986470a0bca"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
