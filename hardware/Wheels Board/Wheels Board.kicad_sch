@@ -4948,14 +4948,24 @@
 		(uuid "1f046e69-e8bd-4c0c-b469-137a9e60de20")
 	)
 	(label "ESP_SPI_CLK"
-		(at 124.46 162.56 180)
+		(at 124.46 167.64 180)
 		(effects
 			(font
 				(size 0.762 0.762)
 			)
 			(justify right bottom)
 		)
-		(uuid "2e9e5f49-4f3c-42a3-9c48-89474c84c787")
+		(uuid "23f3b770-57e8-4967-b40e-6b9870393590")
+	)
+	(label "ESP_SPI_SS"
+		(at 124.46 160.02 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e7d0291-c047-47bf-b618-81b1c1f50778")
 	)
 	(label "IMU_SPI_CLK"
 		(at 254 86.36 180)
@@ -4997,6 +5007,16 @@
 		)
 		(uuid "4f71e474-9cfc-4941-8704-cbd1349b9fd1")
 	)
+	(label "IMU_SPI_CLK"
+		(at 140.97 160.02 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "50627fcd-7d4c-4ce0-b9c2-a12ceecc4569")
+	)
 	(label "HALL_OUT"
 		(at 78.74 170.18 180)
 		(effects
@@ -5027,26 +5047,6 @@
 		)
 		(uuid "57b7829d-1612-444b-bed0-1bbedfb75a11")
 	)
-	(label "IMU_SPI_MISO"
-		(at 140.97 167.64 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e9e87d9-924a-46ab-9ee7-635ab7511450")
-	)
-	(label "IMU_SPI_CLK"
-		(at 140.97 162.56 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "601391d6-76c2-461e-a5c0-ad3f1c8f8da0")
-	)
 	(label "ESP_SPI_MOSI"
 		(at 124.46 165.1 180)
 		(effects
@@ -5067,6 +5067,16 @@
 		)
 		(uuid "655c8123-1ab8-43f5-9372-95560971d105")
 	)
+	(label "ESP_SPI_MISO"
+		(at 124.46 162.56 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "66e121c6-4556-4054-9c6f-5966c25d79a0")
+	)
 	(label "IMU_INT2"
 		(at 262.89 67.31 180)
 		(effects
@@ -5086,16 +5096,6 @@
 			(justify right bottom)
 		)
 		(uuid "73c52034-1365-4852-a1b8-e35a6f1a164f")
-	)
-	(label "IMU_SPI_MOSI"
-		(at 140.97 165.1 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "75bfda09-c7c5-40c2-8dc8-4277c339c2ce")
 	)
 	(label "GND"
 		(at 151.13 180.34 270)
@@ -5127,6 +5127,16 @@
 				(justify left)
 			)
 		)
+	)
+	(label "IMU_SPI_MOSI"
+		(at 140.97 167.64 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "87789dbc-a0e1-4a41-873c-a3c8f3138841")
 	)
 	(label "EXTRA_GPIO2"
 		(at 48.26 43.18 0)
@@ -5218,6 +5228,16 @@
 		)
 		(uuid "bd1387f1-866b-406f-8eb4-e6a2b98ffbe4")
 	)
+	(label "IMU_SPI_MISO"
+		(at 140.97 162.56 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0376e2b-adc3-4ed4-9676-57b3143892e3")
+	)
 	(label "IMU_INT1"
 		(at 273.05 64.77 180)
 		(effects
@@ -5279,16 +5299,6 @@
 		)
 		(uuid "ce0677b4-dcc1-4fdf-a2fa-54ed6fb2ffb6")
 	)
-	(label "ESP_SPI_SS"
-		(at 124.46 160.02 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "d89cb746-a2c7-4d15-aa33-9b37ad3975de")
-	)
 	(label "CAN_H"
 		(at 201.93 45.72 0)
 		(fields_autoplaced yes)
@@ -5309,16 +5319,6 @@
 				(justify left)
 			)
 		)
-	)
-	(label "ESP_SPI_MISO"
-		(at 124.46 167.64 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "e22b5862-6886-4f7c-8feb-08e2930df934")
 	)
 	(label "IMU_SPI_MISO"
 		(at 254 91.44 180)
@@ -5381,6 +5381,16 @@
 		)
 		(uuid "f0ac9122-1ab6-4e4c-ba95-122058851f72")
 	)
+	(label "IMU_SPI_SS"
+		(at 140.97 165.1 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1b0c467-4a0f-48a9-a210-68e1fc5bb459")
+	)
 	(label "HALL_OUT"
 		(at 251.46 62.23 180)
 		(effects
@@ -5400,16 +5410,6 @@
 			(justify right bottom)
 		)
 		(uuid "fb64ffaa-f861-48dc-8421-498491c6667a")
-	)
-	(label "IMU_SPI_SS"
-		(at 140.97 160.02 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd94acf7-1870-46db-ba16-ed6e7e0b8bbb")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
