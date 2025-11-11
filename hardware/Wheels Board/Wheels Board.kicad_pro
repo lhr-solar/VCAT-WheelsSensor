@@ -90,38 +90,6 @@
         [
           "clearance|119668010|69524231|a8bec9a2-f167-4103-af9b-b8afe7bcdc0d|a2adae2a-9e28-4b82-8356-70c68ee0eda8",
           ""
-        ],
-        [
-          "clearance|120400000|76700000|78dc6363-0b83-4ac5-ac56-f1f37e69e185|199d0a70-6b74-4dce-b864-58163c6defa9",
-          ""
-        ],
-        [
-          "clearance|120400000|77700000|199d0a70-6b74-4dce-b864-58163c6defa9|cea2aa3b-ca2f-4a1a-ad73-b59a075ae576",
-          ""
-        ],
-        [
-          "clearance|120400000|78700000|cea2aa3b-ca2f-4a1a-ad73-b59a075ae576|c5aaf37a-9e53-4379-a4a6-6d5ff348487c",
-          ""
-        ],
-        [
-          "clearance|120400000|79775000|c5aaf37a-9e53-4379-a4a6-6d5ff348487c|f18866db-7454-4009-8d0b-4ba5a8ebd7d3",
-          ""
-        ],
-        [
-          "clearance|127500000|73200000|be86670c-67bd-429b-9eff-dc9d253e06d9|14cd8d96-9868-4c0d-afef-05c8a30674bd",
-          ""
-        ],
-        [
-          "clearance|128500000|73200000|14cd8d96-9868-4c0d-afef-05c8a30674bd|81fd1f03-08be-452f-824a-8e90e505fa7e",
-          ""
-        ],
-        [
-          "clearance|129500000|73200000|81fd1f03-08be-452f-824a-8e90e505fa7e|611c25cd-ace6-4185-8bd4-33df52b034bc",
-          ""
-        ],
-        [
-          "clearance|130575000|73200000|611c25cd-ace6-4185-8bd4-33df52b034bc|036b644b-b7c9-4be6-9e41-0c72dade603c",
-          ""
         ]
       ],
       "meta": {
@@ -620,7 +588,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Wheels Board.step",
       "svg": "",
       "vrml": ""
     },
