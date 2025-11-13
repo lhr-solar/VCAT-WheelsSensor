@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|118300000|85025000|cea2aa3b-ca2f-4a1a-ad73-b59a075ae576|199d0a70-6b74-4dce-b864-58163c6defa9",
-          ""
-        ],
-        [
-          "clearance|118300000|86025000|c5aaf37a-9e53-4379-a4a6-6d5ff348487c|cea2aa3b-ca2f-4a1a-ad73-b59a075ae576",
-          ""
-        ],
-        [
-          "clearance|118300000|87100000|f18866db-7454-4009-8d0b-4ba5a8ebd7d3|c5aaf37a-9e53-4379-a4a6-6d5ff348487c",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
