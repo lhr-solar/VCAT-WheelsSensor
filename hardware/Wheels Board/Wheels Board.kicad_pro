@@ -70,18 +70,6 @@
         [
           "clearance|118300000|87100000|f18866db-7454-4009-8d0b-4ba5a8ebd7d3|c5aaf37a-9e53-4379-a4a6-6d5ff348487c",
           ""
-        ],
-        [
-          "clearance|120134532|99145332|a2adae2a-9e28-4b82-8356-70c68ee0eda8|cf68ee68-a228-441a-b7b8-ffbcadba66af",
-          ""
-        ],
-        [
-          "clearance|120634531|99145332|a8bec9a2-f167-4103-af9b-b8afe7bcdc0d|a2adae2a-9e28-4b82-8356-70c68ee0eda8",
-          ""
-        ],
-        [
-          "clearance|121232310|99387574|70b945c0-d55d-4ac3-9c78-a8a9d7c3f525|b9545af0-9cc8-46d9-a851-f376e08288d6",
-          ""
         ]
       ],
       "meta": {
@@ -747,6 +735,18 @@
           "group_by": false,
           "label": "Sim.Library",
           "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "p/n",
+          "name": "p/n",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
           "show": false
         }
       ],

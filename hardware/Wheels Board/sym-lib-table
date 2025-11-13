@@ -10,4 +10,5 @@
   (lib (name "MP1584EN-LF-Z (Buck Convertor)")(type "KiCad")(uri "${KIPRJMOD}/../../lib/symbols/MP1584EN-LF-Z (Buck Convertor).kicad_sym")(options "")(descr ""))
   (lib (name "Seeed_Studio_XIAO_Series (1)")(type "KiCad")(uri "${KIPRJMOD}/../../lib/symbols/Seeed_Studio_XIAO_Series (1).kicad_sym")(options "")(descr ""))
   (lib (name "TLV9002QDRQ1(Op-Amp)")(type "KiCad")(uri "${KIPRJMOD}/../../lib/symbols/TLV9002QDRQ1(Op-Amp).kicad_sym")(options "")(descr ""))
+  (lib (name "MBR0520LT1G (diode)")(type "KiCad")(uri "${KIPRJMOD}/../../lib/symbols/MBR0520LT1G (diode).kicad_sym")(options "")(descr ""))
 )

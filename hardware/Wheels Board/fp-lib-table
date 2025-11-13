@@ -13,4 +13,5 @@
   (lib (name "UTSVT_Passives")(type "KiCad")(uri "${KIPRJMOD}/../../lib/KiCAD-Sharepoint/UTSVT_Passives.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Power")(type "KiCad")(uri "${KIPRJMOD}/../../lib/KiCAD-Sharepoint/UTSVT_Power.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Special")(type "KiCad")(uri "${KIPRJMOD}/../../lib/KiCAD-Sharepoint/UTSVT_Special.pretty")(options "")(descr ""))
+  (lib (name "diode")(type "KiCad")(uri "${KIPRJMOD}/../../lib/footprints/diode.pretty")(options "")(descr ""))
 )
