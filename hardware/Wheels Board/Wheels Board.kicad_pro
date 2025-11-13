@@ -60,35 +60,27 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|117755410|68875769|c294091b-e131-4c20-8c68-4029159d8e57|1a3907bd-b6f5-43ae-8d04-e62d041b6fe9",
+          "clearance|118300000|85025000|cea2aa3b-ca2f-4a1a-ad73-b59a075ae576|199d0a70-6b74-4dce-b864-58163c6defa9",
           ""
         ],
         [
-          "clearance|118425767|70698590|9e1387a4-cf9b-42b9-8f34-6168003b4aa3|38ccef0a-895c-44ba-8a05-7de9083f6448",
+          "clearance|118300000|86025000|c5aaf37a-9e53-4379-a4a6-6d5ff348487c|cea2aa3b-ca2f-4a1a-ad73-b59a075ae576",
           ""
         ],
         [
-          "clearance|118574232|68277990|1b5add74-ad73-4501-a32b-4d9951367999|a28ba0d4-e379-44cf-9d5d-d31fed6e1bb8",
+          "clearance|118300000|87100000|f18866db-7454-4009-8d0b-4ba5a8ebd7d3|c5aaf37a-9e53-4379-a4a6-6d5ff348487c",
           ""
         ],
         [
-          "clearance|118925768|70698590|38ccef0a-895c-44ba-8a05-7de9083f6448|70b945c0-d55d-4ac3-9c78-a8a9d7c3f525",
+          "clearance|120134532|99145332|a2adae2a-9e28-4b82-8356-70c68ee0eda8|cf68ee68-a228-441a-b7b8-ffbcadba66af",
           ""
         ],
         [
-          "clearance|119425768|70698590|70b945c0-d55d-4ac3-9c78-a8a9d7c3f525|b9545af0-9cc8-46d9-a851-f376e08288d6",
+          "clearance|120634531|99145332|a8bec9a2-f167-4103-af9b-b8afe7bcdc0d|a2adae2a-9e28-4b82-8356-70c68ee0eda8",
           ""
         ],
         [
-          "clearance|119574233|68277990|c53927ee-19f2-42fa-9712-40e8ed676351|005a645a-54a8-49a9-9fac-d4e0cd0bca89",
-          ""
-        ],
-        [
-          "clearance|119668010|69024232|a2adae2a-9e28-4b82-8356-70c68ee0eda8|cf68ee68-a228-441a-b7b8-ffbcadba66af",
-          ""
-        ],
-        [
-          "clearance|119668010|69524231|a8bec9a2-f167-4103-af9b-b8afe7bcdc0d|a2adae2a-9e28-4b82-8356-70c68ee0eda8",
+          "clearance|121232310|99387574|70b945c0-d55d-4ac3-9c78-a8a9d7c3f525|b9545af0-9cc8-46d9-a851-f376e08288d6",
           ""
         ]
       ],
@@ -221,7 +213,9 @@
       ],
       "track_widths": [
         0.0,
-        0.5
+        0.45,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -524,31 +518,37 @@
       {
         "name": "ESP",
         "pcb_color": "rgb(164, 202, 255)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GND",
         "pcb_color": "rgb(105, 105, 105)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "HALL",
         "pcb_color": "rgb(191, 197, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "IMU",
         "pcb_color": "rgb(255, 182, 79)",
-        "priority": 1,
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "IND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PWR",
         "pcb_color": "rgb(195, 255, 126)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -559,24 +559,36 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "ESP",
-        "pattern": "/ESP*"
+        "netclass": "PWR",
+        "pattern": "+*"
       },
       {
-        "netclass": "IMU",
-        "pattern": "/IMU*"
+        "netclass": "ESP",
+        "pattern": "/ESP*"
       },
       {
         "netclass": "HALL",
         "pattern": "/HALL*"
       },
       {
+        "netclass": "IMU",
+        "pattern": "/IMU*"
+      },
+      {
+        "netclass": "IND",
+        "pattern": "/IND*"
+      },
+      {
         "netclass": "GND",
         "pattern": "GND"
       },
       {
-        "netclass": "PWR",
-        "pattern": "+*"
+        "netclass": "IND",
+        "pattern": "/24v to 5v convertor/IND_NODE"
+      },
+      {
+        "netclass": "IND",
+        "pattern": "+5V"
       }
     ]
   },

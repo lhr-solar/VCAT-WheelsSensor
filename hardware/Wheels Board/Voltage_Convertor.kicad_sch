@@ -1317,6 +1317,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 110.49) (xy 184.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3323a3be-bd63-4db4-b2b5-b860e915d6a3")
+	)
+	(wire
+		(pts
 			(xy 135.89 132.08) (xy 142.24 132.08)
 		)
 		(stroke
@@ -1674,16 +1684,6 @@
 			(type default)
 		)
 		(uuid "edc1dc36-45fc-4df1-b447-d7031e212752")
-	)
-	(wire
-		(pts
-			(xy 180.34 110.49) (xy 184.15 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efe3c0f8-ca18-4df1-8662-8c041213624b")
 	)
 	(wire
 		(pts
@@ -4192,6 +4192,16 @@
 			(justify left bottom)
 		)
 		(uuid "ae7c88d7-3d4b-4250-999c-ec5d623f13e2")
+	)
+	(label "IND_NODE"
+		(at 180.34 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7a97030-4b8b-48b5-a194-b7d1fb5c09f8")
 	)
 	(label "ROSC"
 		(at 176.53 110.49 180)
