@@ -6243,6 +6243,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TLV9001IDCKR"
+			(at 246.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b0b3954c-af20-48c2-8d99-7a7ccec1fcd3")
 		)
@@ -7428,6 +7437,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MBR0520LT1G "
+			(at 104.14 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8723,7 +8741,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW06032K00FKEA"
+		(property "P/N" "CRCW06034K30FKEA"
 			(at 149.86 124.46 0)
 			(effects
 				(font
@@ -9817,6 +9835,15 @@
 			)
 		)
 		(property "Sim.Name" ""
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "3568"
 			(at 54.61 161.29 0)
 			(effects
 				(font
