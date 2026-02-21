@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|110892909|91575769|f971eca5-d664-4e79-90be-11c75d3ac02f|b5dfc519-2f4a-4560-882c-03e026cc2f28",
+          ""
+        ],
+        [
+          "clearance|111563266|93398590|9ef0815e-ecab-4215-8ba4-3fd28098318c|d7760172-ff63-45a4-99d1-9a1d4435a7fc",
+          ""
+        ],
+        [
+          "clearance|111711731|90977990|bb4e9a38-2d07-439f-8269-b01c285e5333|9e58e781-5e6e-4035-af33-599bcdd9b4d8",
+          ""
+        ],
+        [
+          "clearance|112063267|93398590|d7760172-ff63-45a4-99d1-9a1d4435a7fc|44f4ef95-e089-4419-b6a7-6b2456622871",
+          ""
+        ],
+        [
+          "clearance|112563267|93398590|44f4ef95-e089-4419-b6a7-6b2456622871|07743905-84cc-4522-9e08-baa8c14878fd",
+          ""
+        ],
+        [
+          "clearance|112711732|90977990|a687071f-8493-4577-82f3-43b49368db3d|6b0111c1-f33e-43bd-9a0e-c52953ed6f90",
+          ""
+        ],
+        [
+          "clearance|112805509|91724232|b581cd69-fd30-4c37-849a-d6d4cc8a4077|87011bd3-04ec-4bd7-9142-c2df36335a7e",
+          ""
+        ],
+        [
+          "clearance|112805509|92224231|32f0a2bd-a8e3-4beb-a7e2-b7191bdc6bba|b581cd69-fd30-4c37-849a-d6d4cc8a4077",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -734,6 +767,24 @@
           "group_by": false,
           "label": "PN",
           "name": "PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey P/N",
+          "name": "Digikey P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC P/N",
+          "name": "JLC P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser P/N",
+          "name": "Mouser P/N",
           "show": false
         }
       ],
