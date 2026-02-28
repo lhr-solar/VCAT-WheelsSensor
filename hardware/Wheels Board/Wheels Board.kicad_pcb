@@ -5208,233 +5208,6 @@
 			)
 		)
 	)
-	(footprint "UTSVT_Logos:LHRs_LOGO"
-		(layer "F.Cu")
-		(uuid "37d00b26-b4a1-4544-a6a6-d3aa6c920ebe")
-		(at 44.085562 152.70907)
-		(property "Reference" "LOGO1"
-			(at 2.286 8.128 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c77efbab-325e-4a5c-8efa-73ee9d4ef81d")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(property "Value" "LHRS"
-			(at 0.75 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "394a36cd-6d8a-45d8-aea4-c659acfbd02b")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0994ceaf-ce32-4108-9531-769cc27eec67")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Graph footprint placeholder"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f86d4549-c40d-4f78-b883-a272d6d27a3e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "405097a0-f7f7-4a9b-8672-37af3d74ec58")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "p/n" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08217593-70d5-4fbd-b939-22f4e9251b63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Id" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6247d638-e774-4dd2-8998-9abd0ddd4b4c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e961b013-8bda-4d54-8c86-d0cbdd289292")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d328572d-168c-4c68-8360-e7e26be10d22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "17373db5-640a-4e6d-93b2-84c0ce9af60b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vds" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "668baa85-8de3-4bbc-80ab-1c6bf42c882c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/7373d61f-8ef0-4dee-b5f4-6628945175b7")
-		(sheetname "/")
-		(sheetfile "Wheels Board.kicad_sch")
-		(attr board_only exclude_from_pos_files)
-		(fp_poly
-			(pts
-				(xy -6.249206 -0.203095) (xy -6.224007 0.930833) (xy -5.203472 0.944476) (xy -4.182936 0.958119)
-				(xy -4.182936 1.209059) (xy -4.182936 1.46) (xy -5.519249 1.46) (xy -6.855562 1.46) (xy -6.842166 0.061488)
-				(xy -6.828769 -1.337024) (xy -6.551587 -1.337024) (xy -6.274404 -1.337024)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.Mask")
-			(uuid "e575434f-857d-43c3-8b5b-ef43ea22050b")
-		)
-		(fp_poly
-			(pts
-				(xy 6.615873 -0.689802) (xy 6.615873 -0.463016) (xy 5.834722 -0.463016) (xy 5.053571 -0.463016)
-				(xy 5.053571 -0.211032) (xy 5.053571 0.040952) (xy 5.834722 0.040952) (xy 6.615873 0.040952) (xy 6.615873 0.746508)
-				(xy 6.615873 1.452063) (xy 5.607936 1.452063) (xy 4.6 1.452063) (xy 4.6 1.225278) (xy 4.6 0.998492)
-				(xy 5.381151 0.998492) (xy 6.162301 0.998492) (xy 6.162301 0.746508) (xy 6.162301 0.494524) (xy 5.381151 0.494524)
-				(xy 4.6 0.494524) (xy 4.6 -0.211032) (xy 4.6 -0.916587) (xy 5.607936 -0.916587) (xy 6.615873 -0.916587)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.Mask")
-			(uuid "91475e86-7de0-4e9a-8caa-09c9781c09a1")
-		)
-		(fp_poly
-			(pts
-				(xy -0.373172 -1.35313) (xy -0.176388 -1.337024) (xy -0.162992 0.061488) (xy -0.149596 1.46) (xy -0.476322 1.46)
-				(xy -0.803048 1.46) (xy -0.817297 0.893036) (xy -0.831547 0.326071) (xy -1.926018 0.312494) (xy -3.02049 0.298916)
-				(xy -3.034749 0.866859) (xy -3.049007 1.434801) (xy -3.364789 1.449826) (xy -3.680571 1.464851)
-				(xy -3.66717 0.063914) (xy -3.653769 -1.337024) (xy -3.397309 -1.351975) (xy -3.19821 -1.347139)
-				(xy -3.089637 -1.30458) (xy -3.084272 -1.298756) (xy -3.058725 -1.221427) (xy -3.035949 -1.068757)
-				(xy -3.019124 -0.866199) (xy -3.013153 -0.729439) (xy -2.998611 -0.228294) (xy -1.915079 -0.228294)
-				(xy -0.831547 -0.228294) (xy -0.817248 -0.769526) (xy -0.807939 -1.027445) (xy -0.788229 -1.200221)
-				(xy -0.746219 -1.303491) (xy -0.67001 -1.352895) (xy -0.547702 -1.36407)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.Mask")
-			(uuid "0c535c45-20a3-4d51-8d15-1ed21039dd2b")
-		)
-		(fp_poly
-			(pts
-				(xy 1.856389 -1.35712) (xy 2.179517 -1.353276) (xy 2.647725 -1.344807) (xy 3.025655 -1.332131) (xy 3.323823 -1.311144)
-				(xy 3.552744 -1.277743) (xy 3.722934 -1.227822) (xy 3.844908 -1.157279) (xy 3.929182 -1.062008)
-				(xy 3.986272 -0.937906) (xy 4.026693 -0.780868) (xy 4.055352 -0.621144) (xy 4.065781 -0.418686)
-				(xy 4.042188 -0.196195) (xy 3.991695 0.012348) (xy 3.921422 0.172966) (xy 3.877371 0.22816) (xy 3.81313 0.294076)
-				(xy 3.813297 0.346382) (xy 3.880288 0.426572) (xy 3.889499 0.436385) (xy 3.945563 0.511351) (xy 3.98223 0.608775)
-				(xy 4.005316 0.753634) (xy 4.020634 0.970905) (xy 4.022438 1.007429) (xy 4.044076 1.46) (xy 3.710332 1.46)
-				(xy 3.376588 1.46) (xy 3.376588 1.164415) (xy 3.364342 0.957713) (xy 3.321898 0.814351) (xy 3.272136 0.736042)
-				(xy 3.167685 0.603254) (xy 2.213803 0.603254) (xy 1.259921 0.603254) (xy 1.259921 1.031627) (xy 1.259921 1.46)
-				(xy 0.932342 1.46) (xy 0.604762 1.46) (xy 0.604762 0.075047) (xy 0.604762 -0.387884) (xy 1.259921 -0.387884)
-				(xy 1.264188 -0.190347) (xy 1.275542 -0.032626) (xy 1.291816 0.059012) (xy 1.297719 0.070099) (xy 1.357819 0.081199)
-				(xy 1.502244 0.089204) (xy 1.714564 0.093761) (xy 1.978345 0.094519) (xy 2.277158 0.091126) (xy 2.278719 0.091098)
-				(xy 2.615482 0.084007) (xy 2.865965 0.07561) (xy 3.044681 0.064404) (xy 3.166141 0.048885) (xy 3.244859 0.027551)
-				(xy 3.295349 -0.001103) (xy 3.311853 -0.015907) (xy 3.377195 -0.134038) (xy 3.401407 -0.325503)
-				(xy 3.401786 -0.360538) (xy 3.391791 -0.529871) (xy 3.35341 -0.636804) (xy 3.28281 -0.711516) (xy 3.23272 -0.745454)
-				(xy 3.168423 -0.770399) (xy 3.074814 -0.787713) (xy 2.936788 -0.798753) (xy 2.73924 -0.804877) (xy 2.467064 -0.807446)
-				(xy 2.211878 -0.807857) (xy 1.259921 -0.807857) (xy 1.259921 -0.387884) (xy 0.604762 -0.387884)
-				(xy 0.604762 -1.309905) (xy 0.730608 -1.341491) (xy 0.813764 -1.349274) (xy 0.982805 -1.35485) (xy 1.222847 -1.358097)
-				(xy 1.519004 -1.358894)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.Mask")
-			(uuid "b738c809-163c-45ab-822a-98e588de59a8")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "38cdad14-298f-443c-90ae-6329b8470d96")
@@ -17811,7 +17584,7 @@
 		(path "/b3c62021-61e4-4a0f-91e0-5470f151c880")
 		(sheetname "/")
 		(sheetfile "Wheels Board.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -8 -3.365)
 			(end 8 -3.365)
@@ -19399,7 +19172,7 @@
 		)
 	)
 	(gr_text "GND\n"
-		(at 69.3 69.9 0)
+		(at 68.9 74.9 0)
 		(layer "F.SilkS")
 		(uuid "8557e25c-fce9-49ea-97a4-c9406d76574b")
 		(effects
@@ -19487,7 +19260,7 @@
 		)
 	)
 	(gr_text "CAN_L"
-		(at 57.6 67.9 0)
+		(at 57.4 67.9 0)
 		(layer "F.SilkS")
 		(uuid "c51330bc-7a0a-4f38-97e4-d4973ab79175")
 		(effects
@@ -19509,7 +19282,7 @@
 		)
 	)
 	(gr_text "CAN_H\n"
-		(at 63.9 67.8 0)
+		(at 64 67.8 0)
 		(layer "F.SilkS")
 		(uuid "f387e181-0fc7-4817-9931-3de55b103b95")
 		(effects
