@@ -1,0 +1,153 @@
+2026-03-07 01:00:18,895 [INFO] WebApp:194 - Connection lost
+2026-03-07 01:00:25,775 [INFO] WebApp:191 - Connection restablished
+2026-03-07 03:26:19,468 [INFO] WebApp:194 - Connection lost
+2026-03-07 03:26:26,899 [INFO] WebApp:191 - Connection restablished
+2026-03-07 08:18:12,549 [INFO] WebApp:194 - Connection lost
+2026-03-07 08:18:20,412 [INFO] WebApp:191 - Connection restablished
+2026-03-07 11:35:55,647 [INFO] WebApp:194 - Connection lost
+2026-03-07 11:40:53,142 [INFO] WebApp:191 - Connection restablished
+2026-03-07 14:49:18,034 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 656247440 Bytes (1073741824)
+2026-03-07 14:49:32,158 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 687761000 Bytes (1073741824)
+2026-03-07 14:49:33,099 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-03-07 14:49:33,102 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2026-03-07 14:49:33,103 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: CAN
+2026-03-07 14:49:33,103 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-03-07 14:49:33,107 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-03-07 14:49:33,108 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-03-07 14:49:33,108 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2026-03-07 14:49:33,118 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-03-07 14:49:33,445 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp_save
+2026-03-07 14:49:34,239 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp
+2026-03-07 14:49:34,554 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp_save
+2026-03-07 14:49:34,866 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp
+2026-03-07 14:49:36,716 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c_save
+2026-03-07 14:49:37,405 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c
+2026-03-07 14:49:37,415 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h_save
+2026-03-07 14:49:37,557 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h
+2026-03-07 14:49:37,575 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c_save
+2026-03-07 14:49:37,946 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c
+2026-03-07 14:49:37,952 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp_save
+2026-03-07 14:49:38,101 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp
+2026-03-07 14:49:38,116 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h_save
+2026-03-07 14:49:38,262 [INFO] CodeEngine:345 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h
+2026-03-07 14:49:38,388 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h_save
+2026-03-07 14:49:38,652 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h
+2026-03-07 14:49:38,659 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c_save
+2026-03-07 14:49:38,955 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c
+2026-03-07 14:49:39,865 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 560mS.
+2026-03-07 14:49:39,874 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-03-07 14:49:40,184 [INFO] ConfigFileManager:1595 - The Die is : DIE435
+2026-03-07 14:49:48,759 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 8857mS.
+2026-03-07 14:49:48,774 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 4mS.
+2026-03-07 14:49:48,781 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2026-03-07 14:50:46,623 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 763991392 Bytes (1073741824)
+2026-03-07 14:50:47,153 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-03-07 14:50:47,154 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2026-03-07 14:50:47,155 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: CAN
+2026-03-07 14:50:47,155 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-03-07 14:50:47,155 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-03-07 14:50:47,155 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-03-07 14:50:47,155 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2026-03-07 14:50:47,156 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-03-07 14:50:47,367 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp_save
+2026-03-07 14:50:47,717 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp
+2026-03-07 14:50:47,863 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp_save
+2026-03-07 14:50:48,022 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp
+2026-03-07 14:50:48,409 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c_save
+2026-03-07 14:50:48,553 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c
+2026-03-07 14:50:48,558 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h_save
+2026-03-07 14:50:48,642 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h
+2026-03-07 14:50:48,662 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c_save
+2026-03-07 14:50:48,840 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c
+2026-03-07 14:50:48,846 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp_save
+2026-03-07 14:50:48,952 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp
+2026-03-07 14:50:48,966 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h_save
+2026-03-07 14:50:49,070 [INFO] CodeEngine:345 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h
+2026-03-07 14:50:49,138 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h_save
+2026-03-07 14:50:49,241 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h
+2026-03-07 14:50:49,249 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c_save
+2026-03-07 14:50:49,447 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c
+2026-03-07 14:50:50,941 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 146mS.
+2026-03-07 14:50:50,975 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-03-07 14:50:51,336 [INFO] ConfigFileManager:1595 - The Die is : DIE435
+2026-03-07 14:50:56,332 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 5356mS.
+2026-03-07 14:50:56,336 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2026-03-07 14:50:56,340 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-03-07 15:43:14,388 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 826377352 Bytes (1073741824)
+2026-03-07 15:43:18,779 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 874309816 Bytes (1073741824)
+2026-03-07 15:43:19,574 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-03-07 15:43:19,577 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2026-03-07 15:43:19,578 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: CAN
+2026-03-07 15:43:19,578 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-03-07 15:43:19,579 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-03-07 15:43:19,579 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-03-07 15:43:19,579 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2026-03-07 15:43:19,580 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-03-07 15:43:19,877 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp_save
+2026-03-07 15:43:20,303 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp
+2026-03-07 15:43:20,489 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp_save
+2026-03-07 15:43:20,717 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp
+2026-03-07 15:43:21,911 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c_save
+2026-03-07 15:43:22,499 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c
+2026-03-07 15:43:22,528 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h_save
+2026-03-07 15:43:22,620 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h
+2026-03-07 15:43:22,638 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c_save
+2026-03-07 15:43:22,873 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c
+2026-03-07 15:43:22,879 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp_save
+2026-03-07 15:43:22,969 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp
+2026-03-07 15:43:22,982 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h_save
+2026-03-07 15:43:23,075 [INFO] CodeEngine:345 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h
+2026-03-07 15:43:23,152 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h_save
+2026-03-07 15:43:23,304 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h
+2026-03-07 15:43:23,309 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c_save
+2026-03-07 15:43:23,528 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c
+2026-03-07 15:43:24,826 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 386mS.
+2026-03-07 15:43:24,846 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-03-07 15:43:25,149 [INFO] ConfigFileManager:1595 - The Die is : DIE435
+2026-03-07 15:43:29,168 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 4320mS.
+2026-03-07 15:43:29,173 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2026-03-07 15:43:29,181 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-03-07 17:01:33,467 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 766577352 Bytes (1073741824)
+2026-03-07 17:01:47,394 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 989366480 Bytes (1073741824)
+2026-03-07 17:01:48,113 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-03-07 17:01:48,113 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2026-03-07 17:01:48,113 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: CAN
+2026-03-07 17:01:48,113 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-03-07 17:01:48,115 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-03-07 17:01:48,115 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-03-07 17:01:48,115 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2026-03-07 17:01:48,116 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-03-07 17:01:48,316 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp_save
+2026-03-07 17:01:49,022 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp
+2026-03-07 17:01:49,296 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp_save
+2026-03-07 17:01:49,625 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp
+2026-03-07 17:01:51,122 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c_save
+2026-03-07 17:01:51,650 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c
+2026-03-07 17:01:51,656 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h_save
+2026-03-07 17:01:51,790 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h
+2026-03-07 17:01:51,810 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c_save
+2026-03-07 17:01:52,147 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c
+2026-03-07 17:01:52,152 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp_save
+2026-03-07 17:01:52,293 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp
+2026-03-07 17:01:52,307 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h_save
+2026-03-07 17:01:52,443 [INFO] CodeEngine:345 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h
+2026-03-07 17:01:52,630 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h_save
+2026-03-07 17:01:52,876 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h
+2026-03-07 17:01:52,881 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c_save
+2026-03-07 17:01:53,168 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c
+2026-03-07 17:01:54,912 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 685mS.
+2026-03-07 17:01:54,988 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-03-07 17:01:55,592 [INFO] ConfigFileManager:1595 - The Die is : DIE435
+2026-03-07 17:01:59,822 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 4834mS.
+2026-03-07 17:01:59,828 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2026-03-07 17:01:59,832 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-03-07 18:20:20,280 [INFO] WebApp:194 - Connection lost
+2026-03-07 18:20:23,365 [INFO] WebApp:191 - Connection restablished
+2026-03-07 18:22:23,536 [INFO] WebApp:194 - Connection lost
+2026-03-07 18:22:40,078 [INFO] WebApp:191 - Connection restablished
+2026-03-07 18:42:11,276 [INFO] WebApp:194 - Connection lost
+2026-03-07 18:43:24,232 [INFO] WebApp:191 - Connection restablished
+2026-03-07 19:00:54,217 [INFO] WebApp:194 - Connection lost
+2026-03-07 19:02:46,776 [INFO] WebApp:191 - Connection restablished
+2026-03-07 21:15:52,446 [INFO] WebApp:194 - Connection lost
+2026-03-07 22:11:35,470 [INFO] WebApp:191 - Connection restablished

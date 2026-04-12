@@ -1,0 +1,130 @@
+2026-02-06 00:07:46,940 [INFO] WebApp:194 - Connection lost
+2026-02-06 00:07:54,540 [INFO] WebApp:191 - Connection restablished
+2026-02-06 11:24:16,822 [INFO] WebApp:194 - Connection lost
+2026-02-06 11:24:28,162 [INFO] WebApp:191 - Connection restablished
+2026-02-06 13:13:24,623 [INFO] WebApp:194 - Connection lost
+2026-02-06 13:13:34,867 [INFO] WebApp:191 - Connection restablished
+2026-02-06 13:15:02,761 [INFO] WebApp:194 - Connection lost
+2026-02-06 13:26:05,719 [INFO] WebApp:191 - Connection restablished
+2026-02-06 15:01:30,626 [INFO] WebApp:194 - Connection lost
+2026-02-06 15:01:37,280 [INFO] WebApp:191 - Connection restablished
+2026-02-06 15:01:50,648 [INFO] WebApp:194 - Connection lost
+2026-02-06 15:01:58,165 [INFO] WebApp:191 - Connection restablished
+2026-02-06 15:58:22,483 [INFO] WebApp:194 - Connection lost
+2026-02-06 15:58:23,569 [INFO] WebApp:191 - Connection restablished
+2026-02-06 16:34:58,453 [INFO] WebApp:194 - Connection lost
+2026-02-06 16:37:21,122 [INFO] WebApp:191 - Connection restablished
+2026-02-06 17:27:22,569 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 902467456 Bytes (1073741824)
+2026-02-06 17:27:23,737 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-02-06 17:27:23,740 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-02-06 17:27:23,742 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-02-06 17:27:23,742 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-02-06 17:27:23,742 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2026-02-06 17:27:23,743 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-02-06 17:27:24,001 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp_save
+2026-02-06 17:27:24,642 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp
+2026-02-06 17:27:24,973 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp_save
+2026-02-06 17:27:25,237 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp
+2026-02-06 17:27:25,586 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c_save
+2026-02-06 17:27:26,034 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c
+2026-02-06 17:27:26,038 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h_save
+2026-02-06 17:27:26,158 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h
+2026-02-06 17:27:26,175 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c_save
+2026-02-06 17:27:26,446 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c
+2026-02-06 17:27:26,451 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp_save
+2026-02-06 17:27:26,597 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp
+2026-02-06 17:27:26,605 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h_save
+2026-02-06 17:27:26,725 [INFO] CodeEngine:345 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h
+2026-02-06 17:27:26,824 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h_save
+2026-02-06 17:27:27,044 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h
+2026-02-06 17:27:27,049 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c_save
+2026-02-06 17:27:27,242 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c
+2026-02-06 17:27:29,002 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 362mS.
+2026-02-06 17:27:29,036 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-02-06 17:27:29,363 [INFO] ConfigFileManager:1595 - The Die is : DIE435
+2026-02-06 17:27:33,166 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 4127mS.
+2026-02-06 17:27:33,178 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2026-02-06 17:27:33,181 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-02-06 17:30:17,870 [INFO] CADModel:198 - CPN selected (Project mode): STM32L431CBT3
+2026-02-06 17:30:17,917 [INFO] CADModel:200 - Internet connection configuration mode: 1
+2026-02-06 17:30:17,921 [INFO] CADModel:203 - rpn retrievedSTM32L431CB
+2026-02-06 17:30:17,958 [INFO] WebAppUi:336 - Instantiating new browser for Project
+2026-02-06 17:30:19,978 [INFO] WebAppUi:1235 - Register for checkConnection events
+2026-02-06 17:30:19,979 [INFO] WebAppUi:1270 - Apply proxy settings
+2026-02-06 17:30:20,056 [INFO] WebAppUi:1188 - Chromium authenticates against Manually configured proxy
+2026-02-06 17:30:20,059 [INFO] WebAppUi:1196 - Username used for proxy authentication: 
+2026-02-06 17:30:20,102 [INFO] WebAppUi:1166 - Web application path used /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659/db/plugins/mcufinder/reactClient/index.html
+2026-02-06 17:30:20,241 [INFO] WebAppUi:938 - Path where api_config.json is located /Users/karthikkurapati/.stmcufinder/plugins/mcufinder//mcu/api_config.json
+2026-02-06 17:30:20,254 [INFO] WebAppUi:939 - Setting api config in window object
+2026-02-06 17:30:20,310 [WARN] WebAppUi:976 - Cannot access cad_preferences.json
+2026-02-06 17:30:20,310 [WARN] WebAppUi:979 - Fallback to default consent
+2026-02-06 17:30:20,317 [INFO] WebAppUi:947 - Path where cad_preferences.json is located /Users/karthikkurapati/.stm32cubeide/
+2026-02-06 17:30:20,317 [INFO] WebAppUi:948 - Setting consent info in window object
+2026-02-06 17:30:22,053 [INFO] WebAppUi:843 - Allow Downloads
+2026-02-06 17:30:22,057 [INFO] WebAppUi:336 - Instantiating new browser for Finder
+2026-02-06 17:30:22,463 [INFO] WebAppUi:1100 - Web application message: [UlApiManager component] Connecting to SSO
+2026-02-06 17:30:22,627 [INFO] WebAppUi:1235 - Register for checkConnection events
+2026-02-06 17:30:22,627 [INFO] WebAppUi:1270 - Apply proxy settings
+2026-02-06 17:30:22,646 [INFO] WebAppUi:1188 - Chromium authenticates against Manually configured proxy
+2026-02-06 17:30:22,647 [INFO] WebAppUi:1196 - Username used for proxy authentication: 
+2026-02-06 17:30:22,669 [INFO] WebAppUi:1166 - Web application path used /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659/db/plugins/mcufinder/reactClient/index.html
+2026-02-06 17:30:22,772 [INFO] WebAppUi:938 - Path where api_config.json is located /Users/karthikkurapati/.stmcufinder/plugins/mcufinder//mcu/api_config.json
+2026-02-06 17:30:22,774 [INFO] WebAppUi:939 - Setting api config in window object
+2026-02-06 17:30:22,818 [INFO] WebAppUi:947 - Path where cad_preferences.json is located /Users/karthikkurapati/.stm32cubeide/
+2026-02-06 17:30:22,818 [INFO] WebAppUi:948 - Setting consent info in window object
+2026-02-06 17:30:22,861 [INFO] WebAppUi:1100 - Web application message: [UlApiManager component] Connected to Ultra Librarian SSO
+2026-02-06 17:30:23,076 [INFO] WebAppUi:1100 - Web application message: [UlApiManager component] Connected to Ultra Librarian API
+2026-02-06 17:30:25,008 [INFO] WebAppUi:843 - Allow Downloads
+2026-02-06 17:30:25,010 [INFO] WebAppUi:664 - RPN selected STM32L431CB
+2026-02-06 17:30:25,014 [INFO] WebAppUi:665 - RefName selected STM32L431CBTx
+2026-02-06 17:30:25,014 [INFO] WebAppUi:666 - CPN selected STM32L431CBT3
+2026-02-06 17:30:25,037 [INFO] WebAppUi:829 - Which Bigleton in use 2 and which CPN is about STM32L431CBT3
+2026-02-06 17:30:25,519 [INFO] WebAppUi:1100 - Web application message: [UlApiManager component] Connecting to SSO
+2026-02-06 17:30:25,763 [INFO] WebAppUi:703 - Have injected Javascript into web application
+2026-02-06 17:30:25,764 [INFO] WebAppUiContainer:153 - Web application run mode: Project CPN: STM32L431CBT3
+2026-02-06 17:30:25,817 [INFO] WebAppUi:1100 - Web application message: [UlApiManager component] Connected to Ultra Librarian SSO
+2026-02-06 17:30:25,992 [INFO] WebAppUi:1100 - Web application message: [UlApiManager component] Connected to Ultra Librarian API
+2026-02-06 17:30:28,723 [INFO] WebAppUi:938 - Path where api_config.json is located /Users/karthikkurapati/.stmcufinder/plugins/mcufinder//mcu/api_config.json
+2026-02-06 17:30:28,724 [INFO] WebAppUi:939 - Setting api config in window object
+2026-02-06 17:30:28,765 [INFO] WebAppUi:947 - Path where cad_preferences.json is located /Users/karthikkurapati/.stm32cubeide/
+2026-02-06 17:30:28,765 [INFO] WebAppUi:948 - Setting consent info in window object
+2026-02-06 17:30:30,319 [INFO] WebAppUi:1100 - Web application message: THREE.WebGLRenderer 101
+2026-02-06 17:30:50,889 [INFO] I2cTimingTraitement:330 - 0x00100D14
+2026-02-06 17:31:07,340 [INFO] I2cTimingTraitement:330 - 0x00100D14
+2026-02-06 19:10:29,123 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 849152520 Bytes (1073741824)
+2026-02-06 19:10:29,976 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 903156232 Bytes (1073741824)
+2026-02-06 19:10:33,233 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-02-06 19:10:33,248 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2026-02-06 19:10:33,251 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-02-06 19:10:33,256 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-02-06 19:10:33,257 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-02-06 19:10:33,258 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2026-02-06 19:10:33,264 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-02-06 19:10:33,651 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp_save
+2026-02-06 19:10:34,244 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp
+2026-02-06 19:10:34,502 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp_save
+2026-02-06 19:10:34,766 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp
+2026-02-06 19:10:35,683 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c_save
+2026-02-06 19:10:36,189 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c
+2026-02-06 19:10:36,193 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h_save
+2026-02-06 19:10:36,308 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h
+2026-02-06 19:10:36,321 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c_save
+2026-02-06 19:10:36,583 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c
+2026-02-06 19:10:36,590 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp_save
+2026-02-06 19:10:36,705 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp
+2026-02-06 19:10:36,715 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h_save
+2026-02-06 19:10:36,848 [INFO] CodeEngine:345 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h
+2026-02-06 19:10:36,928 [INFO] ApiDbMcu:532 - Load IP Config File for USART1
+2026-02-06 19:10:36,939 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h_save
+2026-02-06 19:10:37,125 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h
+2026-02-06 19:10:37,134 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c_save
+2026-02-06 19:10:37,360 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c
+2026-02-06 19:10:37,888 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 278mS.
+2026-02-06 19:10:37,893 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-02-06 19:10:38,153 [INFO] ConfigFileManager:1595 - The Die is : DIE435
+2026-02-06 19:10:44,001 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 6082mS.
+2026-02-06 19:10:44,020 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 3mS.
+2026-02-06 19:10:44,032 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-02-06 20:15:49,790 [INFO] WebApp:403 - JxBrowser engine has been closed 
+2026-02-06 20:15:49,793 [INFO] WebAppUi:504 - JxBrowser engine has been closed 
+2026-02-06 20:15:49,794 [INFO] WebAppUi:541 - Close the Jxbrowser engine manually

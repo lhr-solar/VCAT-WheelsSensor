@@ -1,0 +1,43 @@
+2026-01-24 10:17:27,940 [INFO] WebApp:194 - Connection lost
+2026-01-24 10:17:36,705 [INFO] WebApp:191 - Connection restablished
+2026-01-24 10:18:26,777 [INFO] WebApp:194 - Connection lost
+2026-01-24 10:18:32,488 [INFO] WebApp:191 - Connection restablished
+2026-01-24 11:15:47,623 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1010259984 Bytes (1073741824)
+2026-01-24 11:15:48,842 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 644984968 Bytes (1073741824)
+2026-01-24 11:15:51,138 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-01-24 11:15:51,142 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-01-24 11:15:51,144 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-01-24 11:15:51,145 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-01-24 11:15:51,150 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2026-01-24 11:15:51,424 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp_save
+2026-01-24 11:15:52,266 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/license.tmp
+2026-01-24 11:15:52,526 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp_save
+2026-01-24 11:15:52,770 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/gpio.tmp
+2026-01-24 11:15:52,853 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c_save
+2026-01-24 11:15:53,202 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_it.c
+2026-01-24 11:15:53,214 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h_save
+2026-01-24 11:15:53,348 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_it.h
+2026-01-24 11:15:53,362 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c_save
+2026-01-24 11:15:53,547 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/stm32l4xx_hal_msp.c
+2026-01-24 11:15:53,553 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp_save
+2026-01-24 11:15:53,794 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/MXTmpFiles/system.tmp
+2026-01-24 11:15:53,807 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h_save
+2026-01-24 11:15:53,977 [INFO] CodeEngine:345 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/stm32l4xx_hal_conf.h
+2026-01-24 11:15:54,093 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h_save
+2026-01-24 11:15:54,309 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Inc/main.h
+2026-01-24 11:15:54,317 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c_save
+2026-01-24 11:15:54,601 [INFO] CodeEngine:289 - Generated code: /Users/karthikkurapati/LHR/VCAT-WheelsSensor/firmware/wheelsboard/Core/Src/main.c
+2026-01-24 11:15:55,165 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 242mS.
+2026-01-24 11:15:55,173 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2026-01-24 11:15:55,389 [INFO] ConfigFileManager:1595 - The Die is : DIE435
+2026-01-24 11:15:59,947 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 4774mS.
+2026-01-24 11:15:59,950 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2026-01-24 11:15:59,954 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2026-01-24 17:22:06,213 [INFO] WebApp:194 - Connection lost
+2026-01-24 17:23:57,072 [INFO] WebApp:191 - Connection restablished
+2026-01-24 17:37:08,201 [INFO] WebApp:194 - Connection lost
+2026-01-24 17:37:13,569 [INFO] WebApp:191 - Connection restablished
+2026-01-24 18:16:41,204 [INFO] WebApp:194 - Connection lost
+2026-01-24 18:16:49,806 [INFO] WebApp:191 - Connection restablished
+2026-01-24 19:19:00,361 [INFO] WebApp:194 - Connection lost
+2026-01-24 19:19:08,369 [INFO] WebApp:191 - Connection restablished
