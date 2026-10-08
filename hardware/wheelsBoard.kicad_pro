@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -658,13 +658,62 @@
       {
         "filename": "wheelsBoard.kicad_sch",
         "name": "wheelsBoard",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "69127114-6359-479f-a1a1-af440f90be3d"
       }
     ],
-    "used_designators": "Q1-2,D1-2,R1-6,IC1,C1-7",
+    "used_designators": "IC1,R1-6,R9-14,R22-27,R29-32,JP1-2,#PWR1,#PWR3-6,#PWR9-12,#PWR15-19,#PWR25-26,D1-2,D4-6,D11-12,D14,Q1-2,U4,U6,C1-7,C16-20,C24-28,C40-41,J3-6,TP5-11,TP16,F1,#FLG1,#FLG6",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "69127114-6359-479f-a1a1-af440f90be3d",
+      "wheelsBoard"
+    ],
+    [
+      "283cf7a1-5763-4bd2-ae3a-c2f78ac02f1f",
+      "48PinMCU"
+    ],
+    [
+      "09f519fd-cfdb-4542-8a21-0f38fa8cfb08",
+      "MCU+USB"
+    ],
+    [
+      "5e54f89c-9642-4dd0-b55e-fabebcfceb46",
+      "USB-C_Connector"
+    ],
+    [
+      "daecda86-cddb-4759-b96c-ea8b1b96f1af",
+      "power_Rail"
+    ],
+    [
+      "6671f4e5-03b8-457a-9878-7e10673f71d8",
+      "CAN_Transceiver"
+    ],
+    [
+      "9f68e68b-217f-480f-8087-626c4b14676f",
+      "PowerProtection"
+    ],
+    [
+      "71833e86-1bf8-49c2-bd28-78b5a67f29b8",
+      "12VBuck"
+    ],
+    [
+      "64ef68fa-3e19-40cc-9fb9-67d60389f594",
+      "Power_Mux"
+    ],
+    [
+      "7da03bba-6e89-4676-b538-830a2c925006",
+      "LDO"
+    ],
+    [
+      "ebabf896-b2ca-49cc-b3c3-47b4e0564209",
+      "Hall Effect Sensor"
+    ],
+    [
+      "b6e3f34b-784c-4fc1-b618-c3e17c431e68",
+      "IMUs"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
