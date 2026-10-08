@@ -301,27 +301,51 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 121.92 80.01)
+		(end 186.69 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "75706bb7-acef-4947-94e7-5256d76fb36a")
+	)
+	(text "HALL SIGNAL CLEANING"
+		(exclude_from_sim no)
+		(at 138.176 77.47 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "852c8bc9-7f05-4939-9b89-935e9483b744")
+	)
 	(junction
-		(at 115.57 80.01)
+		(at 158.75 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5603d1d6-400f-4cc7-bf23-32487e6eb9d9")
 	)
 	(junction
-		(at 111.76 90.17)
+		(at 154.94 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61112123-844c-411a-aeef-cb6638225234")
 	)
 	(junction
-		(at 106.68 80.01)
+		(at 149.86 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e05299c6-be03-48c0-a33b-e0e2ddb44472")
 	)
 	(wire
 		(pts
-			(xy 105.41 80.01) (xy 106.68 80.01)
+			(xy 148.59 83.82) (xy 149.86 83.82)
 		)
 		(stroke
 			(width 0)
@@ -331,7 +355,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 125.73 80.01)
+			(xy 149.86 83.82) (xy 168.91 83.82)
 		)
 		(stroke
 			(width 0)
@@ -341,7 +365,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 90.17) (xy 115.57 90.17)
+			(xy 149.86 93.98) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
@@ -351,7 +375,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 115.57 90.17)
+			(xy 158.75 91.44) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
@@ -361,7 +385,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 111.76 93.98)
+			(xy 154.94 93.98) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -371,7 +395,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 80.01) (xy 97.79 80.01)
+			(xy 135.89 83.82) (xy 140.97 83.82)
 		)
 		(stroke
 			(width 0)
@@ -381,7 +405,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 90.17) (xy 106.68 87.63)
+			(xy 149.86 93.98) (xy 149.86 91.44)
 		)
 		(stroke
 			(width 0)
@@ -391,7 +415,7 @@
 	)
 	(hierarchical_label "HALL_OUTPUT"
 		(shape output)
-		(at 125.73 80.01 0)
+		(at 168.91 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -402,7 +426,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 111.76 93.98 0)
+		(at 154.94 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -413,7 +437,7 @@
 	)
 	(hierarchical_label "HALL_RAW"
 		(shape input)
-		(at 92.71 80.01 180)
+		(at 135.89 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -424,7 +448,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 80.01 90)
+		(at 144.78 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -434,7 +458,7 @@
 		(dnp no)
 		(uuid "7d9a889e-8955-4d56-ae01-e5120f49a54d")
 		(property "Reference" "R13"
-			(at 101.6 77.724 90)
+			(at 144.78 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -444,7 +468,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 101.854 80.01 90)
+			(at 145.034 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -454,7 +478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 81.788 90)
+			(at 144.78 85.598 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -465,7 +489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 80.01 0)
+			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -476,7 +500,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 80.01 0)
+			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -503,7 +527,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 83.82 0)
+		(at 158.75 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -514,7 +538,7 @@
 		(fields_autoplaced yes)
 		(uuid "a057943c-bf24-450d-b0ac-947dd0904c0b")
 		(property "Reference" "C24"
-			(at 119.38 82.5499 0)
+			(at 162.56 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -525,7 +549,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 119.38 85.0899 0)
+			(at 162.56 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -536,7 +560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.5352 87.63 0)
+			(at 159.7152 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -547,7 +571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 83.82 0)
+			(at 158.75 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -558,7 +582,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 115.57 83.82 0)
+			(at 158.75 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -585,7 +609,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 83.82 0)
+		(at 149.86 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -595,7 +619,7 @@
 		(dnp no)
 		(uuid "ffea017f-eb5a-46b0-bbfe-4df255362704")
 		(property "Reference" "R14"
-			(at 108.458 83.82 0)
+			(at 151.638 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -606,7 +630,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 106.68 85.598 90)
+			(at 149.86 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -617,7 +641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.902 83.82 90)
+			(at 148.082 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -628,7 +652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 83.82 0)
+			(at 149.86 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -639,7 +663,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 83.82 0)
+			(at 149.86 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

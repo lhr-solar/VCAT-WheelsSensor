@@ -31876,7 +31876,7 @@
 	)
 	(text "CAN Transceiver\n"
 		(exclude_from_sim no)
-		(at 69.596 49.784 0)
+		(at 69.85 49.53 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -31886,7 +31886,7 @@
 	)
 	(text "Try to keep CDSOT23 near bus conn"
 		(exclude_from_sim no)
-		(at 197.866 64.008 0)
+		(at 198.12 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31896,7 +31896,7 @@
 	)
 	(text "CAN Protection"
 		(exclude_from_sim no)
-		(at 177.546 43.942 0)
+		(at 177.8 44.45 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -31906,7 +31906,7 @@
 	)
 	(text "CAN Bus Termination\n"
 		(exclude_from_sim no)
-		(at 181.864 76.454 0)
+		(at 181.61 76.2 0)
 		(effects
 			(font
 				(size 1.778 1.778)
