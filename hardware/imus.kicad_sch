@@ -13058,7 +13058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "ASM330LHHX"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/asm330lhhx-2936180.pdf"
 			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -13176,7 +13176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/iis2mdc.pdf"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/06/f2/a3/a7/74/fe/4b/16/DM00431721/files/DM00431721.pdf/jcr:content/translations/en.DM00431721.pdf"
 			(at 172.72 35.56 0)
 			(hide yes)
 			(show_name no)

@@ -313,9 +313,19 @@
 		)
 		(uuid "75706bb7-acef-4947-94e7-5256d76fb36a")
 	)
-	(text "HALL SIGNAL CLEANING"
+	(text "CUTOFF: 23MkHz"
 		(exclude_from_sim no)
-		(at 138.176 77.47 0)
+		(at 177.038 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4dbf29d2-1236-4bee-83c7-a772746c0e21")
+	)
+	(text "HALL SIGNAL CLEANING and VOLTAGE PULL DOWN"
+		(exclude_from_sim no)
+		(at 157.226 77.978 0)
 		(effects
 			(font
 				(size 1.905 1.905)
