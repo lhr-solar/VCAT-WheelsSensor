@@ -1138,6 +1138,12 @@
 		(uuid "57d2ce6d-4c0a-495c-a916-d10fe0bdad5b")
 	)
 	(junction
+		(at 256.54 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c536a3a-d302-46af-ae17-a277a6950f78")
+	)
+	(junction
 		(at 160.02 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1172,12 +1178,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7100da2-81b3-4634-9e12-22dea429e67d")
-	)
-	(junction
-		(at 257.81 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e47f2eca-b4fb-40be-89aa-81ffda5a0097")
 	)
 	(no_connect
 		(at 90.17 46.99)
@@ -1257,6 +1257,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 39.37) (xy 260.35 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250ea39a-fb73-48c1-99d7-eb50a52d9ff2")
+	)
+	(wire
+		(pts
 			(xy 257.81 43.18) (xy 266.7 43.18)
 		)
 		(stroke
@@ -1264,6 +1274,16 @@
 			(type default)
 		)
 		(uuid "2f33ded5-562f-4779-9b29-6599dfb6b7fd")
+	)
+	(wire
+		(pts
+			(xy 252.73 31.75) (xy 256.54 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb22a41-f465-44d3-942d-5eae7a3bb80f")
 	)
 	(wire
 		(pts
@@ -1284,6 +1304,16 @@
 			(type default)
 		)
 		(uuid "359e382d-bfb8-4fc5-b789-a1eda3af8c8b")
+	)
+	(wire
+		(pts
+			(xy 252.73 40.64) (xy 252.73 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38451cc9-dee3-4f87-8cfc-0020d80e5e27")
 	)
 	(wire
 		(pts
@@ -1467,23 +1497,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 33.02) (xy 257.81 33.02)
+			(xy 238.76 40.64) (xy 252.73 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94e1c4c5-3a96-4a48-9a0e-a1c8837fac47")
-	)
-	(wire
-		(pts
-			(xy 257.81 40.64) (xy 266.7 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98bc8cef-ad60-4c72-93fd-7e30c401b29b")
+		(uuid "93d97e9b-276e-4fe9-9105-44ea6fbccc45")
 	)
 	(wire
 		(pts
@@ -1597,13 +1617,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 40.64) (xy 257.81 40.64)
+			(xy 256.54 31.75) (xy 266.7 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bff68ca2-df78-4bfc-b2ca-c9a413dd3e25")
+		(uuid "b9063f3a-4686-4684-8a06-1354f3b499c3")
 	)
 	(wire
 		(pts
@@ -5520,8 +5540,8 @@
 		)
 	)
 	(image
-		(at 63.5 149.86)
-		(scale 0.313825)
+		(at 74.93 147.32)
+		(scale 0.384416)
 		(uuid "5905e241-0e5b-427b-a523-1e515c8a4ad6")
 		(data "iVBORw0KGgoAAAANSUhEUgAABnIAAAT4CAYAAAAsDFyTAAAMUmlDQ1BJQ0MgUHJvZmlsZQAASImV"
 			"VwdYU8kWnlvSgNACCEgJvYkiUgJICT303kQlJAFCCTEhqIgNXVRwLahYsKKLIgpWmh0bKoti74sF"
@@ -12325,17 +12345,6 @@
 		)
 		(uuid "208da874-da7f-40bb-840e-7967b72b0822")
 	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 266.7 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3cc922f0-b172-4e98-b1ec-e6e170000d38")
-	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 36.83 40.64 180)
@@ -12426,14 +12435,14 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 254 33.02 180)
+		(at 260.35 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "bf72240f-c005-4946-8217-e46165ea4b54")
+		(uuid "af76e045-1356-453b-a462-abbf22d0748f")
 	)
 	(hierarchical_label "IMU_INT2"
 		(shape output)
@@ -12511,6 +12520,17 @@
 			(justify left)
 		)
 		(uuid "fb2e8189-1a91-469f-9d82-4eddfca154a5")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 266.7 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fefe6fb4-9231-43d0-9a6a-0aeff3948d24")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape output)
@@ -12770,6 +12790,87 @@
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b1100ab-7953-4737-bd4d-eeecc892f7db")
+		(property "Reference" "C40"
+			(at 261.62 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 259.08 36.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RF_Converter:Balun_Johanson_0900PC15J0013"
+			(at 255.5748 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "12b6746b-647e-4b11-a9df-4204ebfef86c")
+		)
+		(pin "1"
+			(uuid "dc8aa078-3547-48ff-9c1a-b3adf55d1210")
+		)
+		(instances
+			(project "wheelsBoard"
+				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -13141,7 +13242,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bff23887-5b12-4d7d-9131-adfce7d8fb03")
 		(property "Reference" "U6"
@@ -13239,87 +13340,6 @@
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 257.81 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ecd751f0-ea31-41b0-9a15-dbb42fa39d1e")
-		(property "Reference" "C40"
-			(at 262.89 35.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 260.35 37.592 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "RF_Converter:Balun_Johanson_0900PC15J0013"
-			(at 256.8448 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 257.81 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ab065e83-8fbb-464c-8981-4d80e8c734ba")
-		)
-		(pin "1"
-			(uuid "47056cce-180d-4dd0-b0a8-04d49a2001a6")
-		)
-		(instances
-			(project "wheelsBoard"
-				(path "/69127114-6359-479f-a1a1-af440f90be3d/b6e3f34b-784c-4fc1-b618-c3e17c431e68"
-					(reference "C40")
 					(unit 1)
 				)
 			)
