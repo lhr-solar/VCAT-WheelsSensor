@@ -5,129 +5,6 @@
 	(uuid "8ff43370-8d10-4d2c-b1a3-81d1c2934a98")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1035,7 +912,7 @@
 		)
 		(column_widths 29.845 10.795 11.43 11.43 8.255)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
-		(uuid "409527a7-8fd1-472d-bc2f-441867736e7e")
+		(uuid "858dd052-237d-4253-84bc-3de2cb6e426a")
 		(cells
 			(table_cell "Parameters"
 				(exclude_from_sim no)
@@ -1945,7 +1822,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 168.275 71.1135 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1956,7 +1833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2012,155 +1889,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "ebb03269-94e6-4492-b844-38cae620fd58")
+			(uuid "8982b71e-8e80-4d1a-b7c6-32345734f6a1")
 		)
 		(pin "2"
-			(uuid "b6645a91-52b6-490a-b866-29658c8afc80")
+			(uuid "aa1ead18-c899-4600-b544-441f9dedd605")
 		)
 		(instances
 			(project "wheelsBoard"
-				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af/7da03bba-6e89-4676-b538-830a2c925006"
+				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af/9fe56aac-1498-4bfe-a450-f7be7cd27308"
 					(reference "C23")
 					(unit 1)
 				)
 			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "C23")
+			(project "LDO"
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "C2")
 					(unit 1)
 				)
 			)
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f10b56c-7496-424f-a7ed-4cbbd3fc3660")
-		(property "Reference" "TP_3.3V1"
-			(at 166.624 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 164.084 54.356 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 170.18 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Color" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "If" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vf" ""
-			(at 165.1 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21c770dc-ce7f-4418-8526-1d757826a033")
-		)
-		(instances
-			(project "wheelsBoard"
-				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "TP_3.3V1")
-					(unit 1)
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "TP_3.3V1")
-					(unit 1)
-				)
-			)
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "TP_3.3V1")
+			(project "LeaderSOMBreakout"
+				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2264,42 +2013,25 @@
 				)
 			)
 		)
-		(property "LCSC MFG P/N" "LM39100S-3.3"
-			(at 152.4 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
-			(uuid "69b4f1b9-408c-4042-a701-8b53feb977ae")
+			(uuid "3fcec839-284c-4ea8-a79f-01c06ecb6999")
 		)
 		(pin "1"
-			(uuid "06f819f0-e9b6-4505-a70d-53e3d30c481e")
+			(uuid "995de51d-9d43-4d1a-b9fe-0b2a61d94583")
 		)
 		(pin "3"
-			(uuid "88ab289f-6357-4014-a3e9-8c4423aadff3")
+			(uuid "957fe355-65e9-43a7-85ca-76966301f183")
 		)
 		(instances
 			(project "wheelsBoard"
-				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af/7da03bba-6e89-4676-b538-830a2c925006"
+				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af/9fe56aac-1498-4bfe-a450-f7be7cd27308"
 					(reference "U3")
 					(unit 1)
 				)
 			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "U3")
+			(project "LDO"
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2317,7 +2049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D4"
+		(property "Reference" "D9"
 			(at 133.604 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,27 +2147,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "db8e8832-45b8-48e4-842c-31c32092d124")
+			(uuid "07949f2e-a083-4273-9382-0b69eba2a8a9")
 		)
 		(pin "2"
-			(uuid "2412672a-9fbb-40d1-b114-2acb71cbb3a0")
+			(uuid "92239788-8b6a-4474-afbc-db272288e943")
 		)
 		(instances
 			(project "wheelsBoard"
-				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "D4")
+				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af/9fe56aac-1498-4bfe-a450-f7be7cd27308"
+					(reference "D9")
 					(unit 1)
 				)
 			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "D4")
+			(project "LDO"
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2190,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 142.875 71.1135 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2475,7 +2201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2531,27 +2257,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "017d23a6-fc51-4d47-ad78-b2116677e0b0")
+			(uuid "3c088605-de17-491b-a92c-48312011ee9b")
 		)
 		(pin "2"
-			(uuid "83b3b9d6-0668-437a-96f8-0bdd96e2c54e")
+			(uuid "7a07c67e-64ee-4191-918c-55b9b7230005")
 		)
 		(instances
 			(project "wheelsBoard"
-				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af/7da03bba-6e89-4676-b538-830a2c925006"
+				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af/9fe56aac-1498-4bfe-a450-f7be7cd27308"
 					(reference "C22")
 					(unit 1)
 				)
 			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "C22")
+			(project "LDO"
+				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+					(reference "C1")
 					(unit 1)
 				)
 			)
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
-					(reference "C22")
+			(project ""
+				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
+					(reference "C?")
 					(unit 1)
 				)
 			)

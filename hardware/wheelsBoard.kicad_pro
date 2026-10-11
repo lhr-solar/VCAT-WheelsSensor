@@ -655,6 +655,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -667,7 +675,7 @@
         "uuid": "69127114-6359-479f-a1a1-af440f90be3d"
       }
     ],
-    "used_designators": "IC1,IC3,R1-6,R9-14,R22-36,JP1-2,#PWR1,#PWR3-6,#PWR9-12,#PWR15-20,#PWR25-28,D1-2,D4-6,D11-16,Q1-2,C1-7,C16-20,C24-28,C40-42,U4,U6-9,TP5-11,TP16,F1-2,J3-6,J8,#FLG1,#FLG6-7",
+    "used_designators": "#FLG1,#FLG6-7,J3-6,J8,F1-2,TP5-11,TP16,U3-4,U6-9,C1-7,C16-20,C22-28,C40-42,Q1-2,D1-2,D4-6,D9,D11-16,#PWR1,#PWR3-6,#PWR9-12,#PWR15-21,#PWR25-28,JP1-2,R1-6,R9-14,R22-36,IC1,IC3",
     "variants": []
   },
   "sheets": [
@@ -696,19 +704,19 @@
       "CAN_Transceiver"
     ],
     [
-      "9f68e68b-217f-480f-8087-626c4b14676f",
+      "0acdabea-ac6e-4a99-985d-2481190e4574",
       "PowerProtection"
     ],
     [
-      "71833e86-1bf8-49c2-bd28-78b5a67f29b8",
+      "92bdc21b-15ee-4976-9c1d-8a3ba64046ec",
       "12VBuck"
     ],
     [
-      "64ef68fa-3e19-40cc-9fb9-67d60389f594",
+      "28de410c-723c-45ce-81c8-a01c762075b2",
       "Power_Mux"
     ],
     [
-      "7da03bba-6e89-4676-b538-830a2c925006",
+      "9fe56aac-1498-4bfe-a450-f7be7cd27308",
       "LDO"
     ],
     [

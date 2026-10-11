@@ -883,7 +883,7 @@
 		(uuid "86354991-56a6-4d18-9cc9-8154afd6155a")
 	)
 	(junction
-		(at 181.61 81.28)
+		(at 184.15 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93b305e2-8daa-48db-934f-c679d5c81c38")
@@ -1020,17 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 81.28) (xy 198.12 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3542c3b8-5ce2-4cc6-9dde-35e51afec111")
-	)
-	(wire
-		(pts
-			(xy 105.41 81.28) (xy 111.76 81.28)
+			(xy 104.14 81.28) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 181.61 104.14)
+			(xy 190.5 104.14) (xy 184.15 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1060,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 99.06 95.25)
+			(xy 93.98 95.25) (xy 96.52 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1080,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 81.28) (xy 114.3 81.28)
+			(xy 111.76 81.28) (xy 115.57 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1130,13 +1120,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 81.28) (xy 181.61 81.28)
+			(xy 176.53 81.28) (xy 198.12 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75a3a766-af04-44ea-8804-585aaa5df336")
+	)
+	(wire
+		(pts
+			(xy 125.73 88.9) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc43d11-9ecc-4ce2-9cbf-80f57125cffb")
 	)
 	(wire
 		(pts
@@ -1150,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 181.61 101.6)
+			(xy 184.15 104.14) (xy 184.15 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 81.28) (xy 92.71 81.28)
+			(xy 85.09 81.28) (xy 88.9 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 85.09) (xy 181.61 81.28)
+			(xy 184.15 85.09) (xy 184.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 90.17) (xy 125.73 90.17)
+			(xy 121.92 92.71) (xy 125.73 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 99.06 95.25)
+			(xy 96.52 86.36) (xy 96.52 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1390,16 +1390,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 87.63) (xy 125.73 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88c09ae-9e71-4e23-8ada-d1b89329f241")
-	)
-	(wire
-		(pts
 			(xy 130.81 52.07) (xy 134.62 52.07)
 		)
 		(stroke
@@ -1430,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 92.71) (xy 181.61 93.98)
+			(xy 184.15 92.71) (xy 184.15 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1450,13 +1440,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 140.97 81.28)
+			(xy 135.89 81.28) (xy 140.97 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0697563-f7da-4ac4-84ab-edd8d1e4ff7e")
+		(uuid "f3b36e36-bf34-4e87-9a9e-01fc72742438")
 	)
 	(label "+12v"
 		(at 78.74 81.28 0)
@@ -1503,7 +1493,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 121.92 90.17 180)
+		(at 121.92 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1525,7 +1515,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 187.96 104.14 0)
+		(at 190.5 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2051,10 +2041,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "57b1a9e9-24c3-4967-a289-edaa03c2bd60")
 		(property "Reference" "TP7"
-			(at 143.51 71.6279 0)
+			(at 132.08 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2065,7 +2054,7 @@
 			)
 		)
 		(property "Value" "5V_Point"
-			(at 143.51 74.1679 0)
+			(at 132.08 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2593,7 +2582,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Blue_LED")
-		(at 181.61 97.79 90)
+		(at 184.15 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2603,7 +2592,7 @@
 		(dnp no)
 		(uuid "b2b40881-2522-46a5-b265-729b09e8c9ad")
 		(property "Reference" "D12"
-			(at 184.404 97.028 90)
+			(at 186.944 97.028 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2614,7 +2603,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 184.404 99.568 90)
+			(at 186.944 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2625,7 +2614,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 181.61 97.79 0)
+			(at 184.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2636,7 +2625,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2007-0094/LTST-C193KGKT-5A.PDF"
-			(at 181.61 97.79 0)
+			(at 184.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2647,7 +2636,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 181.61 97.79 0)
+			(at 184.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,7 +2647,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 181.61 97.79 0)
+			(at 184.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +2658,7 @@
 			)
 		)
 		(property "LCSC P/N" "C125103"
-			(at 181.61 97.79 0)
+			(at 184.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2680,7 +2669,7 @@
 			)
 		)
 		(property "P/N" "LTST-C193TBKT-5A"
-			(at 181.61 97.79 0)
+			(at 184.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2719,7 +2708,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 88.9 0)
+		(at 184.15 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2729,7 +2718,7 @@
 		(dnp no)
 		(uuid "bc174bd9-20df-4d26-b0e0-1a2861762d72")
 		(property "Reference" "R30"
-			(at 176.53 87.63 0)
+			(at 179.07 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2740,7 +2729,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 181.61 90.678 90)
+			(at 184.15 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2751,7 +2740,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 179.832 88.9 90)
+			(at 182.372 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2762,7 +2751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 88.9 0)
+			(at 184.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2773,7 +2762,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 88.9 0)
+			(at 184.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3017,10 +3006,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ec9b7411-cdd3-4b4a-a4ec-d09d7acc3df5")
 		(property "Reference" "TP9"
-			(at 200.66 71.6279 0)
+			(at 184.658 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3031,7 +3019,7 @@
 			)
 		)
 		(property "Value" "5V_Point_Mux"
-			(at 200.66 74.1679 0)
+			(at 184.658 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3280,8 +3268,8 @@
 		)
 	)
 	(sheet
-		(at 158.75 74.93)
-		(size 17.78 27.94)
+		(at 88.9 77.47)
+		(size 15.24 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3294,7 +3282,84 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "64ef68fa-3e19-40cc-9fb9-67d60389f594")
+		(uuid "0acdabea-ac6e-4a99-985d-2481190e4574")
+		(property "Sheetname" "PowerProtection"
+			(at 88.9 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerProtection.kicad_sch"
+			(at 88.9 86.9446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 96.52 86.36 270)
+			(uuid "e00d83a0-eca0-472f-871c-a50581cce9ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 88.9 81.28 180)
+			(uuid "b4f4f766-099f-4af0-8b5c-af9812cf42e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 104.14 81.28 0)
+			(uuid "ef1d3efc-937d-4122-9e38-d2c72a9f6309")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "wheelsBoard"
+				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 74.93)
+		(size 17.78 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "28de410c-723c-45ce-81c8-a01c762075b2")
 		(property "Sheetname" "Power_Mux"
 			(at 158.75 74.2184 0)
 			(show_name no)
@@ -3307,7 +3372,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Mux.kicad_sch"
-			(at 158.75 103.4546 0)
+			(at 158.75 104.7246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3320,7 +3385,7 @@
 		)
 		(pin "MUX_OUT" output
 			(at 176.53 81.28 0)
-			(uuid "72eefc75-e639-413b-894b-74a9731ba909")
+			(uuid "c762d400-7d8a-4eec-a7c5-cd50a1699c21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,7 +3395,7 @@
 		)
 		(pin "MX_GND" input
 			(at 158.75 101.6 180)
-			(uuid "8bd6f8ef-fffb-4070-80a8-f10649be48f0")
+			(uuid "349bb107-7a9f-4991-9764-cc76b072a9a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3405,7 @@
 		)
 		(pin "PR1" input
 			(at 158.75 91.44 180)
-			(uuid "291a9ef7-959c-4b67-9c67-26f1448318d3")
+			(uuid "b074934f-b7c7-4684-901c-1cb1ca58ed54")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3415,7 @@
 		)
 		(pin "VIN_1" input
 			(at 158.75 81.28 180)
-			(uuid "907395a2-f23d-45b4-9df1-a9e020a3fb64")
+			(uuid "11e393f3-6da4-49db-a711-36d30efe0ac8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,7 +3425,7 @@
 		)
 		(pin "VIN_2" input
 			(at 158.75 77.47 180)
-			(uuid "7083c890-b7a4-41f9-84d6-32b0afc6a687")
+			(uuid "865d8b45-e6eb-4582-9501-5bbe7b3112cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,16 +3434,6 @@
 			)
 		)
 		(instances
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
-					(page "8")
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(page "4")
-				)
-			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af"
 					(page "9")
@@ -3387,12 +3442,13 @@
 		)
 	)
 	(sheet
-		(at 114.3 78.74)
-		(size 22.86 8.89)
+		(at 115.57 78.74)
+		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3400,9 +3456,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "71833e86-1bf8-49c2-bd28-78b5a67f29b8")
+		(uuid "92bdc21b-15ee-4976-9c1d-8a3ba64046ec")
 		(property "Sheetname" "12VBuck"
-			(at 114.3 78.0284 0)
+			(at 115.57 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3413,7 +3469,7 @@
 			)
 		)
 		(property "Sheetfile" "12VBuck.kicad_sch"
-			(at 114.3 73.66 0)
+			(at 115.57 89.4846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3425,8 +3481,8 @@
 			)
 		)
 		(pin "GND" input
-			(at 125.73 87.63 270)
-			(uuid "af6aa48a-68d0-4813-aa06-5dc753d8ef37")
+			(at 125.73 88.9 270)
+			(uuid "0dc1d757-a239-4779-bcf8-e93c1daf60b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,8 +3491,8 @@
 			)
 		)
 		(pin "V_in_12V" input
-			(at 114.3 81.28 180)
-			(uuid "a2b8f797-1d2a-4b34-9860-acfdac5cd065")
+			(at 115.57 81.28 180)
+			(uuid "5ee0ac2a-0474-43e3-a956-0542f75e0170")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,8 +3501,8 @@
 			)
 		)
 		(pin "V_out_5V" output
-			(at 137.16 81.28 0)
-			(uuid "a101aee2-5576-4ffe-9e16-d109397f30c5")
+			(at 135.89 81.28 0)
+			(uuid "80210378-cab6-449b-aec7-83fda751f3a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,16 +3511,6 @@
 			)
 		)
 		(instances
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
-					(page "3")
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(page "3")
-				)
-			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af"
 					(page "8")
@@ -3473,12 +3519,13 @@
 		)
 	)
 	(sheet
-		(at 199.39 80.01)
-		(size 12.7 8.89)
+		(at 199.39 78.74)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3486,9 +3533,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "7da03bba-6e89-4676-b538-830a2c925006")
+		(uuid "9fe56aac-1498-4bfe-a450-f7be7cd27308")
 		(property "Sheetname" "LDO"
-			(at 199.39 79.2984 0)
+			(at 199.39 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3499,7 +3546,7 @@
 			)
 		)
 		(property "Sheetfile" "LDO.kicad_sch"
-			(at 199.39 75.946 0)
+			(at 199.39 89.4846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,7 +3559,7 @@
 		)
 		(pin "GND" input
 			(at 205.74 88.9 270)
-			(uuid "f1de5960-d2de-4218-96dd-7b8e5a916b8d")
+			(uuid "28897215-88ae-457a-bb75-aa4826b24cbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3569,7 @@
 		)
 		(pin "Vin" input
 			(at 199.39 81.28 180)
-			(uuid "7c28b136-2aba-4032-a8a0-3780adb64b91")
+			(uuid "537540ac-444f-4e9b-968f-7c4a68280a06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3579,7 @@
 		)
 		(pin "Vout" output
 			(at 212.09 81.28 0)
-			(uuid "a29ceb26-bcf1-4fcc-a88d-840ca4a5e9da")
+			(uuid "e355b65c-7d4e-48f5-be8f-43768ad30211")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,105 +3588,9 @@
 			)
 		)
 		(instances
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
-					(page "4")
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(page "5")
-				)
-			)
 			(project "wheelsBoard"
 				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af"
 					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 92.71 78.74)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9f68e68b-217f-480f-8087-626c4b14676f")
-		(property "Sheetname" "PowerProtection"
-			(at 91.186 77.216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PowerProtection.kicad_sch"
-			(at 86.614 73.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 99.06 88.9 270)
-			(uuid "8953170e-bcb0-491f-863e-bcec7476d841")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vin" input
-			(at 92.71 81.28 180)
-			(uuid "d5d70dd6-8266-4ff8-b94f-5e03eb4be85d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vout" output
-			(at 105.41 81.28 0)
-			(uuid "b985997d-7547-41c2-a4d7-5d85d87cf2b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
-					(page "7")
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(page "2")
-				)
-			)
-			(project "wheelsBoard"
-				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af"
-					(page "7")
 				)
 			)
 		)
