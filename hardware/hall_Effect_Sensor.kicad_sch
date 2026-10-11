@@ -313,7 +313,7 @@
 		)
 		(uuid "75706bb7-acef-4947-94e7-5256d76fb36a")
 	)
-	(text "CUTOFF: 23MkHz"
+	(text "CUTOFF: 23kHz"
 		(exclude_from_sim no)
 		(at 177.038 99.822 0)
 		(effects

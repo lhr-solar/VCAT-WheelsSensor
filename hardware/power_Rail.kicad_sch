@@ -834,16 +834,6 @@
 		)
 		(uuid "9a8b8d99-e469-46d0-8ff4-e985ffc93670")
 	)
-	(text "Galvanically Isolated"
-		(exclude_from_sim no)
-		(at 187.198 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9cf4831c-f97e-4e4e-a613-ec3da4b9402c")
-	)
 	(text "GND Test Points"
 		(exclude_from_sim no)
 		(at 128.27 43.18 0)
@@ -921,12 +911,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5dfe2fb-6f4a-42fa-9933-d4a4b0233df3")
-	)
-	(junction
-		(at 109.22 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4461de4-8323-487e-b76b-975b4e93f757")
 	)
 	(junction
 		(at 109.22 81.28)
@@ -1036,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 81.28) (xy 186.69 81.28)
+			(xy 181.61 81.28) (xy 198.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1226,16 +1210,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 81.28) (xy 198.12 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97f5fdf8-4dd7-4826-ab60-dfbc895b971f")
-	)
-	(wire
-		(pts
 			(xy 218.44 81.28) (xy 222.25 81.28)
 		)
 		(stroke
@@ -1404,16 +1378,6 @@
 		)
 		(uuid "d3bdf710-ced5-4c24-9194-d5b13bf09a1a")
 	)
-	(polyline
-		(pts
-			(xy 187.96 76.2) (xy 187.96 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7777cc4-9811-4b8e-b3ee-4a52ff70f959")
-	)
 	(wire
 		(pts
 			(xy 198.12 76.2) (xy 198.12 81.28)
@@ -1494,16 +1458,6 @@
 		)
 		(uuid "f0697563-f7da-4ac4-84ab-edd8d1e4ff7e")
 	)
-	(label "MUX_OUT"
-		(at 189.23 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ad8c5e6-cc17-4b04-bf9c-09e4996c23a6")
-	)
 	(label "+12v"
 		(at 78.74 81.28 0)
 		(effects
@@ -1513,16 +1467,6 @@
 			(justify left bottom)
 		)
 		(uuid "b1986a4e-5e5d-4286-8b72-46075016a015")
-	)
-	(label "MUX_OUT"
-		(at 186.69 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b620cb3c-35cb-4bf9-a2d7-e783f2ad3335")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -2369,97 +2313,6 @@
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 69.85 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94c93187-46de-496e-b7c9-da5d8cf3915a")
-		(property "Reference" "TP6"
-			(at 114.3 68.5799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V_Point"
-			(at 114.3 71.1199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
-			(at 109.22 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ac1735b-0f1c-4718-ab49-654ae879fb7f")
-		)
-		(instances
-			(project "wheelsBoard"
-				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
