@@ -54630,7 +54630,7 @@
 		)
 		(uuid "e05a2a50-c975-4a70-9f3c-1d2636535876")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 121.92 64.77 0)
 		(effects
@@ -54641,7 +54641,7 @@
 		)
 		(uuid "ed325b6b-c95a-4610-8736-f6645be3b87c")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 121.92 67.31 0)
 		(effects
@@ -54730,7 +54730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 204.597 59.9439 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55785,7 +55785,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 247.142 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56042,7 +56042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 189.992 59.9439 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56196,7 +56196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 185.166 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56351,7 +56351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 174.752 59.9439 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56506,7 +56506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 257.937 59.817 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56609,7 +56609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 210.82 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56913,7 +56913,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 224.028 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57613,7 +57613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 173.99 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57624,7 +57624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 172.1612 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -58040,7 +58040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 217.424 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58461,7 +58461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 169.672 109.2454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58874,7 +58874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 197.358 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59331,7 +59331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 232.664 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)

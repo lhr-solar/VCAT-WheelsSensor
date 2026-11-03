@@ -335,6 +335,16 @@
 		)
 		(uuid "852c8bc9-7f05-4939-9b89-935e9483b744")
 	)
+	(text "10V -> 3.3v\n"
+		(exclude_from_sim no)
+		(at 137.668 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dce7b05d-57d7-4ada-b01d-b9ba14329f3b")
+	)
 	(junction
 		(at 158.75 83.82)
 		(diameter 0)
@@ -395,6 +405,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 85.09) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70048cf8-140f-4ed1-9d3d-daba0e00d869")
+	)
+	(wire
+		(pts
 			(xy 154.94 93.98) (xy 154.94 97.79)
 		)
 		(stroke
@@ -415,7 +435,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 149.86 91.44)
+			(xy 149.86 93.98) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -487,7 +507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.78 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -558,7 +578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1n"
 			(at 162.56 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -569,7 +589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 159.7152 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -619,7 +639,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 87.63 0)
+		(at 149.86 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -629,7 +649,7 @@
 		(dnp no)
 		(uuid "ffea017f-eb5a-46b0-bbfe-4df255362704")
 		(property "Reference" "R14"
-			(at 151.638 87.63 0)
+			(at 151.638 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -640,7 +660,7 @@
 			)
 		)
 		(property "Value" "8k"
-			(at 149.86 88.646 90)
+			(at 149.86 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -650,8 +670,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.082 87.63 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 148.082 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -662,7 +682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 87.63 0)
+			(at 149.86 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -673,7 +693,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 87.63 0)
+			(at 149.86 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

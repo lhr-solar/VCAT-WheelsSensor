@@ -847,7 +847,7 @@
 		(uuid "9fef8325-87bc-42f4-99fe-c620d36b8acd")
 	)
 	(junction
-		(at 85.09 81.28)
+		(at 88.9 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a92f860-9895-45a1-819e-1c5bf53d7e6e")
@@ -869,6 +869,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49858f3b-cf9c-4df4-9c5c-b1e5e928daa8")
+	)
+	(junction
+		(at 111.76 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f8900ad-5935-4a7d-9001-ce29ec7847da")
 	)
 	(junction
 		(at 156.21 77.47)
@@ -895,12 +901,6 @@
 		(uuid "a1839743-c355-4993-8a31-792a2f11547e")
 	)
 	(junction
-		(at 111.76 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca4d05b7-cd9c-4def-bb6b-87dbff26ab22")
-	)
-	(junction
 		(at 156.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -913,10 +913,16 @@
 		(uuid "d5dfe2fb-6f4a-42fa-9933-d4a4b0233df3")
 	)
 	(junction
-		(at 109.22 81.28)
+		(at 111.76 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5f142c4-11db-48db-a5a6-06ae4c36ebad")
+	)
+	(junction
+		(at 111.76 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f38bceac-9934-41cd-9d09-da08c3f9eea4")
 	)
 	(wire
 		(pts
@@ -937,6 +943,16 @@
 			(type default)
 		)
 		(uuid "027e08fe-e36d-4468-950a-463ba6433328")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cff4c7-ac6b-4f7d-a88a-220b41b2136f")
 	)
 	(wire
 		(pts
@@ -990,13 +1006,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 69.85) (xy 109.22 81.28)
+			(xy 111.76 73.66) (xy 116.84 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ba76677-babe-4a95-915d-8dfcb65769ed")
+		(uuid "30d90d00-3c32-45df-aa27-b860e9336dcc")
 	)
 	(wire
 		(pts
@@ -1020,16 +1036,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 111.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aebd3e1-942b-413f-a37e-d1ddef6df18f")
-	)
-	(wire
-		(pts
 			(xy 158.75 81.28) (xy 156.21 81.28)
 		)
 		(stroke
@@ -1050,7 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 96.52 92.71)
+			(xy 93.98 92.71) (xy 99.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1070,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 81.28) (xy 115.57 81.28)
+			(xy 106.68 81.28) (xy 115.57 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1080,23 +1086,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 104.14) (xy 111.76 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d2059a9-6680-447d-9073-a473c6a10b8e")
-	)
-	(wire
-		(pts
-			(xy 92.71 69.85) (xy 85.09 69.85)
+			(xy 92.71 69.85) (xy 88.9 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6da31994-31ea-4664-a742-280ad096e3f6")
+	)
+	(wire
+		(pts
+			(xy 111.76 69.85) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df68021-e620-4982-9202-797f022dc052")
 	)
 	(wire
 		(pts
@@ -1140,16 +1146,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 85.09 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c75c414-9fcb-4b52-85e6-582447c22064")
-	)
-	(wire
-		(pts
 			(xy 184.15 104.14) (xy 184.15 101.6)
 		)
 		(stroke
@@ -1157,16 +1153,6 @@
 			(type default)
 		)
 		(uuid "7ec7b8c6-51cc-4b13-bb1d-3608a6928cc1")
-	)
-	(wire
-		(pts
-			(xy 85.09 81.28) (xy 88.9 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f0b506b-8f2f-45dc-b4d8-8f91b2132dbf")
 	)
 	(wire
 		(pts
@@ -1187,16 +1173,6 @@
 			(type default)
 		)
 		(uuid "9480609f-650c-43a5-9518-718c103e1bb1")
-	)
-	(wire
-		(pts
-			(xy 111.76 104.14) (xy 111.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9511c909-9553-401d-a872-8cdec1b5959f")
 	)
 	(wire
 		(pts
@@ -1247,6 +1223,16 @@
 			(type default)
 		)
 		(uuid "ac5b7a19-a318-4439-b37c-7ce2eb937e88")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 111.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13bcd68-9083-41f9-9081-5c9fab29b5e8")
 	)
 	(wire
 		(pts
@@ -1310,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 69.85) (xy 109.22 69.85)
+			(xy 102.87 69.85) (xy 111.76 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 86.36) (xy 96.52 92.71)
+			(xy 99.06 86.36) (xy 99.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1350,17 +1336,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 81.28) (xy 156.21 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfe04e25-af5e-4651-b4d9-47c8b03017a5")
-	)
-	(wire
-		(pts
-			(xy 85.09 69.85) (xy 85.09 81.28)
+			(xy 88.9 69.85) (xy 88.9 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1410,16 +1386,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 77.47 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba7df8e-886e-4b71-9898-f6bb763431ad")
-	)
-	(wire
-		(pts
 			(xy 184.15 92.71) (xy 184.15 93.98)
 		)
 		(stroke
@@ -1440,7 +1406,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 81.28) (xy 140.97 81.28)
+			(xy 135.89 81.28) (xy 156.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1448,8 +1414,38 @@
 		)
 		(uuid "f3b36e36-bf34-4e87-9a9e-01fc72742438")
 	)
-	(label "+12v"
-		(at 78.74 81.28 0)
+	(label "3.3V"
+		(at 214.63 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4db989c2-cdac-4ce3-a507-374827e7c126")
+	)
+	(label "5V_Buck"
+		(at 142.24 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5468e18b-4ef9-425b-8635-38adc6d36d0a")
+	)
+	(label "+12v_PP"
+		(at 106.68 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85fc3bef-4b84-4996-be26-130cb6d463fc")
+	)
+	(label "+12v_Fused"
+		(at 76.2 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1457,6 +1453,16 @@
 			(justify left bottom)
 		)
 		(uuid "b1986a4e-5e5d-4286-8b72-46075016a015")
+	)
+	(label "5V_Mux"
+		(at 181.61 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c280d47d-9ace-4332-90d2-8d09651a6a94")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -1581,7 +1587,7 @@
 	)
 	(hierarchical_label "Vout_12v"
 		(shape output)
-		(at 113.03 104.14 0)
+		(at 116.84 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1855,6 +1861,84 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 111.76 69.85 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fc02eae-c4cb-4cf2-83d3-1ab9ae5ad6a2")
+		(property "Reference" "TP12"
+			(at 113.284 65.024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V_TP"
+			(at 113.284 67.564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 111.76 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75ef1ed3-b8c5-48d9-a700-bc2459aae3fb")
+		)
+		(instances
+			(project "wheelsBoard"
+				(path "/69127114-6359-479f-a1a1-af440f90be3d/daecda86-cddb-4759-b96c-ea8b1b96f1af"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 130.81 59.69 90)
 		(unit 1)
 		(body_style 1)
@@ -1885,7 +1969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1974,7 +2058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 130.81 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2064,7 +2148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 146.05 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2154,7 +2238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 75.692 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -2247,7 +2331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 216.662 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -2341,7 +2425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 161.29 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2432,7 +2516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2520,7 +2604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_Power:Fuse-3557-2"
 			(at 72.39 79.502 90)
 			(hide yes)
 			(show_name no)
@@ -2739,7 +2823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 182.372 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -2832,7 +2916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.432 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -2936,7 +3020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.432 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -3029,7 +3113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 203.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3118,7 +3202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3210,7 +3294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 146.05 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3268,7 +3352,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 77.47)
+		(at 91.44 77.47)
 		(size 15.24 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3284,7 +3368,7 @@
 		)
 		(uuid "0acdabea-ac6e-4a99-985d-2481190e4574")
 		(property "Sheetname" "PowerProtection"
-			(at 88.9 76.7584 0)
+			(at 91.44 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3295,7 +3379,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerProtection.kicad_sch"
-			(at 88.9 86.9446 0)
+			(at 91.44 86.9446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3307,7 +3391,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 96.52 86.36 270)
+			(at 99.06 86.36 270)
 			(uuid "e00d83a0-eca0-472f-871c-a50581cce9ab")
 			(effects
 				(font
@@ -3317,7 +3401,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 88.9 81.28 180)
+			(at 91.44 81.28 180)
 			(uuid "b4f4f766-099f-4af0-8b5c-af9812cf42e9")
 			(effects
 				(font
@@ -3327,7 +3411,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 104.14 81.28 0)
+			(at 106.68 81.28 0)
 			(uuid "ef1d3efc-937d-4122-9e38-d2c72a9f6309")
 			(effects
 				(font
