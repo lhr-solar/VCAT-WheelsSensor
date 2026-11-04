@@ -1,0 +1,34 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.6*%
+%TF.CreationDate,2026-11-04T03:01:05-06:00*%
+%TF.ProjectId,wheelsBoard,77686565-6c73-4426-9f61-72642e6b6963,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.6) date 2026-11-04 03:01:05*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,0.650000*%
+%TD*%
+%TA.AperFunction,ComponentDrill*%
+%ADD11C,1.300000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J3*%
+X141720000Y-81510000D03*
+X141720000Y-87290000D03*
+D11*
+%TO.C,J8*%
+X92490000Y-50550000D03*
+%TO.C,J5*%
+X92490000Y-70250000D03*
+%TO.C,J7*%
+X92490000Y-87650000D03*
+%TO.C,J4*%
+X104430000Y-36460000D03*
+M02*
