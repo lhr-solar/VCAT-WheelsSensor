@@ -2226,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 127) (xy 228.6 127)
+			(xy 220.98 127) (xy 228.6 127)
 		)
 		(stroke
 			(width 0)
@@ -12932,16 +12932,6 @@
 		)
 		(uuid "0bc987ea-af46-47ee-8c30-b676af663b7f")
 	)
-	(label "IMU_INT1"
-		(at 219.71 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11f4e23d-2e3e-4bd0-b827-6e55501bd6a1")
-	)
 	(label "SPI_MISO"
 		(at 162.56 53.34 180)
 		(effects
@@ -12952,7 +12942,7 @@
 		)
 		(uuid "1f72fec2-4151-4576-ae89-906f3102ca1d")
 	)
-	(label "MAG_CS"
+	(label "IMU_CS"
 		(at 264.16 132.08 180)
 		(effects
 			(font
@@ -12960,7 +12950,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2d2cb869-918e-45fd-a2c5-8a4c4e584d50")
+		(uuid "3c7f2786-f4a3-4b34-8b91-9ca804734acd")
 	)
 	(label "MAG_DRDY"
 		(at 264.16 127 180)
@@ -13002,16 +12992,6 @@
 		)
 		(uuid "8e257d9c-132a-4930-83ec-a437c7ebbbfe")
 	)
-	(label "SPI_MISO"
-		(at 172.72 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ed1f69e-9133-484f-ab0a-87f0391cc639")
-	)
 	(label "SPI_SCK"
 		(at 87.63 35.56 0)
 		(effects
@@ -13033,16 +13013,6 @@
 		(uuid "9d450058-6848-416b-a36d-1ac8b6a537d4")
 	)
 	(label "SPI_MOSI"
-		(at 172.72 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a78879a4-3d82-4adc-948a-d03c42e2f29f")
-	)
-	(label "SPI_MOSI"
 		(at 213.36 53.34 180)
 		(effects
 			(font
@@ -13052,15 +13022,15 @@
 		)
 		(uuid "ab4847ea-3959-4643-9805-a2c8bf37191b")
 	)
-	(label "SPI_SCK"
-		(at 215.9 127 180)
+	(label "SPI_MISO"
+		(at 172.72 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "b25db9a9-9620-4b97-b78b-bb614f31748c")
+		(uuid "acdc7b89-3e25-4644-b125-06b5540bb609")
 	)
 	(label "SPI_MISO"
 		(at 34.29 33.02 0)
@@ -13072,7 +13042,7 @@
 		)
 		(uuid "d681f142-4425-4663-971c-c1d071f2c021")
 	)
-	(label "IMU_CS"
+	(label "SPI_SCK"
 		(at 215.9 132.08 180)
 		(effects
 			(font
@@ -13080,7 +13050,37 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "eca7c177-4547-42ef-87f7-14f5fe537217")
+		(uuid "e3fa4f5a-6553-4cfd-a9fd-c06e1596c5bf")
+	)
+	(label "MAG_CS"
+		(at 220.98 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea6dd134-2278-43ab-a90b-d99e6ad56fb7")
+	)
+	(label "IMU_INT1"
+		(at 172.72 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb2fa67f-68ce-4a20-8619-41840b7468f1")
+	)
+	(label "SPI_MOSI"
+		(at 215.9 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f73c80ec-e406-4d67-925b-60bf72bc6fa9")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
