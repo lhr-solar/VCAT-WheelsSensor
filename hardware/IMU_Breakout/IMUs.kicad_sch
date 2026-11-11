@@ -1898,7 +1898,7 @@
 	)
 	(rectangle
 		(start 140.97 19.05)
-		(end 227.33 97.79)
+		(end 233.68 97.79)
 		(stroke
 			(width 0)
 			(type default)
@@ -2186,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 44.45) (xy 120.65 41.91)
+			(xy 123.19 44.45) (xy 123.19 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2326,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 35.56) (xy 100.33 35.56)
+			(xy 86.36 35.56) (xy 97.79 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 127) (xy 215.9 127)
+			(xy 207.01 127) (xy 208.28 127)
 		)
 		(stroke
 			(width 0)
@@ -2463,6 +2463,16 @@
 			(type default)
 		)
 		(uuid "577ec709-8f11-469e-a45b-cb026399a5ca")
+	)
+	(wire
+		(pts
+			(xy 220.98 53.34) (xy 222.25 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e6d182-9175-428d-b241-0c24554082f2")
 	)
 	(wire
 		(pts
@@ -2496,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 48.26) (xy 100.33 48.26)
+			(xy 95.25 48.26) (xy 97.79 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2586,6 +2596,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 33.02) (xy 111.76 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6cc0f0-c048-42d7-8605-684b7bdca1f0")
+	)
+	(wire
+		(pts
 			(xy 95.25 55.88) (xy 95.25 57.15)
 		)
 		(stroke
@@ -2636,17 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 33.02) (xy 100.33 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acef0179-7367-455e-af7b-7818c980b74d")
-	)
-	(wire
-		(pts
-			(xy 203.2 53.34) (xy 214.63 53.34)
+			(xy 203.2 53.34) (xy 213.36 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 34.29) (xy 120.65 31.75)
+			(xy 123.19 34.29) (xy 123.19 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2703,6 +2713,16 @@
 			(type default)
 		)
 		(uuid "bc7654c1-7386-402e-a0c9-349f2e4321d5")
+	)
+	(wire
+		(pts
+			(xy 86.36 33.02) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6b05b8-c477-4c6a-a82f-ec449a11c1c2")
 	)
 	(wire
 		(pts
@@ -2856,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 38.1) (xy 100.33 38.1)
+			(xy 86.36 38.1) (xy 97.79 38.1)
 		)
 		(stroke
 			(width 0)
@@ -12962,7 +12982,7 @@
 		)
 		(uuid "3eefd05c-0595-4156-bf42-9b5159084989")
 	)
-	(label "SPI_MOSI"
+	(label "IMU_MOSI"
 		(at 87.63 33.02 0)
 		(effects
 			(font
@@ -13012,7 +13032,7 @@
 		)
 		(uuid "9d450058-6848-416b-a36d-1ac8b6a537d4")
 	)
-	(label "SPI_MOSI"
+	(label "MAG_MOSI"
 		(at 213.36 53.34 180)
 		(effects
 			(font
@@ -13071,16 +13091,6 @@
 			(justify left bottom)
 		)
 		(uuid "eb2fa67f-68ce-4a20-8619-41840b7468f1")
-	)
-	(label "SPI_MOSI"
-		(at 215.9 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f73c80ec-e406-4d67-925b-60bf72bc6fa9")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -13194,7 +13204,7 @@
 	)
 	(hierarchical_label "IMU_CS"
 		(shape input)
-		(at 100.33 38.1 0)
+		(at 97.79 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13238,7 +13248,7 @@
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
-		(at 214.63 53.34 0)
+		(at 222.25 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13271,7 +13281,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 100.33 48.26 0)
+		(at 97.79 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13282,7 +13292,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 120.65 31.75 90)
+		(at 123.19 31.75 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13304,7 +13314,7 @@
 	)
 	(hierarchical_label "IMU_CS"
 		(shape input)
-		(at 120.65 44.45 270)
+		(at 123.19 44.45 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13348,7 +13358,7 @@
 	)
 	(hierarchical_label "SPI_SCK"
 		(shape input)
-		(at 100.33 35.56 0)
+		(at 97.79 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13359,7 +13369,18 @@
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
-		(at 100.33 33.02 0)
+		(at 208.28 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3d37acc-6a07-47d7-bda5-64ea030ab2fa")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 111.76 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13789,6 +13810,85 @@
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/ab14ffa7-4ae1-4464-91d5-9b05f92e5082"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e0fd977-c782-47f5-880e-0e661041c222")
+		(property "Reference" "R5"
+			(at 105.41 30.988 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 105.41 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 105.41 34.798 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fdc091be-c28a-4763-9cd1-3eb74ad6b441")
+		)
+		(pin "1"
+			(uuid "c9d0fe66-abb3-4f1c-aa36-f1d332fc02b8")
+		)
+		(instances
+			(project "IMU_Breakout"
+				(path "/bf1b0bd1-0c23-46f7-b25a-38a88703218b/27a1c975-5d94-4e2a-a01b-811dc3e0a6d6"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14354,6 +14454,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 217.17 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bcaec901-c31f-45c7-8e27-9278a76f7d86")
+		(property "Reference" "R4"
+			(at 217.17 51.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 217.17 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99b48949-508d-46fd-a371-edd138cfa5a8")
+		)
+		(pin "1"
+			(uuid "db457503-8145-487b-91d2-ea5d4bf5641a")
+		)
+		(instances
+			(project "IMU_Breakout"
+				(path "/bf1b0bd1-0c23-46f7-b25a-38a88703218b/27a1c975-5d94-4e2a-a01b-811dc3e0a6d6"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 172.72 22.86 270)
 		(mirror x)
 		(unit 1)
@@ -14551,7 +14730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 38.1 0)
+		(at 123.19 38.1 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14562,7 +14741,7 @@
 		(dnp no)
 		(uuid "dc58e483-852c-44fb-9825-aafe386e2585")
 		(property "Reference" "R1"
-			(at 122.936 38.1 90)
+			(at 125.476 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14572,7 +14751,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 120.65 38.1 90)
+			(at 123.19 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14582,7 +14761,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 118.872 38.1 90)
+			(at 121.412 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14593,7 +14772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 38.1 0)
+			(at 123.19 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14604,7 +14783,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 38.1 0)
+			(at 123.19 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
